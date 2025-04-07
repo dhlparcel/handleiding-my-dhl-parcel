@@ -1,8 +1,8 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta name="google-site-verification" content="wUHebAddbSWMkLJhUS0Ou6bjV2EIscTa6OISHWbWIOU" />
-    <meta http-equiv="refresh" content="0; url='https://api-gw.dhlparcel.nl/docs/handleiding-my-dhl-parcel/'>
+    <!--    <meta http-equiv="refresh" content="0; url='https://api-gw.dhlparcel.nl/docs/handleiding-my-dhl-parcel/'>-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -27,7 +27,7 @@
             font-weight: 700;
             font-style: normal
         }
-        
+
         @font-face {
             font-family: 'Delivery Regular';
             src: url('https://static.dhlparcel.nl/fonts/Delivery_W_Rg.03f859bf58e4d37841070de34be7d978.woff') format("woff"),
@@ -43,7 +43,7 @@
             font-weight: 300;
             font-style: normal
         }
-        
+
         @font-face {
             font-family: 'Delivery Light Condensed';
             src: url('https://static.dhlparcel.nl/fonts/Delivery_W_CdLt.4e23ecf085132857bdb54b4da7373151.woff') format("woff"),
@@ -52,348 +52,348 @@
             font-style: normal
         }
 
-body {
-    background: #F7F7F7;
-    margin: 0 auto;
-    max-width: 2000px;
-}
+        body {
+            background: #F7F7F7;
+            margin: 0 auto;
+            max-width: 2000px;
+        }
 
-.section {
-    padding: 40px 0;
-    border-bottom: 1px solid #E7E7E7;
-}
+        .section {
+            padding: 40px 0;
+            border-bottom: 1px solid #E7E7E7;
+        }
 
-.sub {
-    padding: 24px 0 8px;
-}
+        .sub {
+            padding: 24px 0 8px;
+        }
 
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: #ffffff;
-    border-right: 1px solid #E7E7E7;
-    height: 100vh;
-    overflow: auto;
-}
+        .sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: #ffffff;
+            border-right: 1px solid #E7E7E7;
+            height: 100vh;
+            overflow: auto;
+        }
 
-.menu {
-    padding: 40px 16px;
-}
+        .menu {
+            padding: 40px 16px;
+        }
 
-p, span, a {
-    font-family:'Delivery Light', Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    line-height: 1.67;
-    color: #333333;
-}
+        p, span, a {
+            font-family:'Delivery Light', Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            line-height: 1.67;
+            color: #333333;
+        }
 
-ol, ul, li, li > a {
-    font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    line-height: 1.67;
-    color: #d40511;
-    text-decoration: none;
-    border-bottom: none;
-}
+        ol, ul, li, li > a {
+            font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            line-height: 1.67;
+            color: #d40511;
+            text-decoration: none;
+            border-bottom: none;
+        }
 
-ol, ul {
-    padding-inline-start: 0;
-    counter-reset: item;
-}
+        ol, ul {
+            padding-inline-start: 0;
+            counter-reset: item;
+        }
 
-ol.sub-menu, ol.sub-menu > li:before, ol.sub-menu > li > a {
-    padding-inline-start: 8px;
-    font-family:'Delivery Light', Arial, Helvetica, sans-serif;
-    font-weight: 300;
-}
+        ol.sub-menu, ol.sub-menu > li:before, ol.sub-menu > li > a {
+            padding-inline-start: 8px;
+            font-family:'Delivery Light', Arial, Helvetica, sans-serif;
+            font-weight: 300;
+        }
 
-li {
-    display: block;
-}
+        li {
+            display: block;
+        }
 
-li:before {
-    content: counters(item, ".") " ";
-    counter-increment: item;
-}
+        li:before {
+            content: counters(item, ".") " ";
+            counter-increment: item;
+        }
 
-.menu-link {
-    text-decoration: underline;
-}
+        .menu-link {
+            text-decoration: underline;
+        }
 
-.menu-link:hover {
-    opacity: 0.9;
-}
+        .menu-link:hover {
+            opacity: 0.9;
+        }
 
-h1, h6 {
-    font-family:'Delivery Black', Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: #000000;
-}
+        h1, h6 {
+            font-family:'Delivery Black', Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #000000;
+        }
 
-h2, h3, h4, h5 {
-    font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color: #000000;
-    margin: 8px 0 0 0;
-}
+        h2, h3, h4, h5 {
+            font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            color: #000000;
+            margin: 8px 0 0 0;
+        }
 
-.hero h1 {
-    color: #ffffff;
-}
+        .hero h1 {
+            color: #ffffff;
+        }
 
-.hero p {
-    font-family:'Delivery Regular', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 110%;
-    line-height: 1.67;
-    color: #ffffff;
-    margin-bottom: 32px;
-}
+        .hero p {
+            font-family:'Delivery Regular', Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 110%;
+            line-height: 1.67;
+            color: #ffffff;
+            margin-bottom: 32px;
+        }
 
-a {
-    color: #d40511;
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
+        a {
+            color: #d40511;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
 
- b {
-    font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
-    font-weight: 700;  
- }
+        b {
+            font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
 
- * {
-  box-sizing: border-box;
-}
+        * {
+            box-sizing: border-box;
+        }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
 
-[class*="col-"] {
-  float: left;
-  padding: 32px;
-}
+        [class*="col-"] {
+            float: left;
+            padding: 32px;
+        }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
 
-.row.header {
-    text-align: center;
-}
+        .row.header {
+            text-align: center;
+        }
 
-.row.content {
-    margin: 0 5% 0 0; 
-}
+        .row.content {
+            margin: 0 5% 0 0;
+        }
 
-.dhl {
-    width: 100%;
-    height: 72px;
-    padding: 16px;
-    background: rgba(255,204,0,1);
-    background: -moz-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,204,0,1)), color-stop(30%, rgba(255,204,0,1)), color-stop(79%, rgba(255,229,127,1)), color-stop(100%, rgba(255,240,178,1)));
-    background: -webkit-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
-    background: -ms-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
-    background: linear-gradient(to right, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#fff0b2', GradientType=1 );
-}
+        .dhl {
+            width: 100%;
+            height: 72px;
+            padding: 16px;
+            background: rgba(255,204,0,1);
+            background: -moz-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,204,0,1)), color-stop(30%, rgba(255,204,0,1)), color-stop(79%, rgba(255,229,127,1)), color-stop(100%, rgba(255,240,178,1)));
+            background: -webkit-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
+            background: -o-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
+            background: -ms-linear-gradient(left, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
+            background: linear-gradient(to right, rgba(255,204,0,1) 0%, rgba(255,204,0,1) 30%, rgba(255,229,127,1) 79%, rgba(255,240,178,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#fff0b2', GradientType=1 );
+        }
 
-.dhl a {
-    display: inline-block;
-    font-family:'Delivery Regular', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    color: #000000;
-    text-decoration: none;
-    border-bottom: none;
-    padding: 23px 16px;
-}
+        .dhl a {
+            display: inline-block;
+            font-family:'Delivery Regular', Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            color: #000000;
+            text-decoration: none;
+            border-bottom: none;
+            padding: 23px 16px;
+        }
 
-.dhl a:hover, .dhl a:active, a.active {
-    color: #d40511;
-}
+        .dhl a:hover, .dhl a:active, a.active {
+            color: #d40511;
+        }
 
-.language {
-    display: block;
-    margin: auto 32px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+        .language {
+            display: block;
+            margin: auto 32px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
 
-.logo {
-    width: auto;
-    height: 20px;
-    float: left;
-    margin: 10px 0;
-}
+        .logo {
+            width: auto;
+            height: 20px;
+            float: left;
+            margin: 10px 0;
+        }
 
-.hero {
-    padding: 120px 25%;
-    color: #ffffff;
-    background-image: url(images/MDP.png);
-    background-size: cover;
-    background-position: center;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
-}
-        
-img {
-    margin: 16px 0;
-}
+        .hero {
+            padding: 120px 25%;
+            color: #ffffff;
+            background-image: url(images/MDP.png);
+            background-size: cover;
+            background-position: center;
+            box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+        }
 
-.button {
-    display: inline-block;
-    padding: 16px;
-    border-radius: 4px;
-    margin: 0 16px 16px 0;
-    font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-}
+        img {
+            margin: 16px 0;
+        }
 
-a.buttonText {
-    text-decoration: none;
-    border-bottom: none;
-}
+        .button {
+            display: inline-block;
+            padding: 16px;
+            border-radius: 4px;
+            margin: 0 16px 16px 0;
+            font-family:'Delivery Bold', Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
 
-.ghost {
-    background-color: rgba(255,255,255,0.1);
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    -webkit-transition: all 0.3s ease;                  
-    -moz-transition: all 0.3s ease;                 
-    -o-transition: all 0.3s ease;   
-    -ms-transition: all 0.3s ease;          
-    transition: all 0.3s ease;
-}
+        a.buttonText {
+            text-decoration: none;
+            border-bottom: none;
+        }
 
-.ghost:hover, .ghost:focus {
-    background-color: rgba(255,255,255,0.2);
-}
+        .ghost {
+            background-color: rgba(255,255,255,0.1);
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
 
-.backToTop {
-    display: none;
-    width: 56px;
-    height: 56px;
-    padding: 16px;
-    border-radius: 50%;
-    background-color: #d40511;
-    position: fixed;
-    right: 32px;
-    bottom: 32px;
-}
+        .ghost:hover, .ghost:focus {
+            background-color: rgba(255,255,255,0.2);
+        }
 
-.backToTop:hover {
-    opacity: 0.8;
-}
+        .backToTop {
+            display: none;
+            width: 56px;
+            height: 56px;
+            padding: 16px;
+            border-radius: 50%;
+            background-color: #d40511;
+            position: fixed;
+            right: 32px;
+            bottom: 32px;
+        }
 
-@media only screen and (max-width: 1440px) {
-    
-    .col-3 {
-        width: 33.33%;
-    }
+        .backToTop:hover {
+            opacity: 0.8;
+        }
 
-    .col-9 {
-        width: 66.66%;
-    }
+        @media only screen and (max-width: 1440px) {
 
-    .menu {
-        padding: 40px 24px;
-    }
-}
+            .col-3 {
+                width: 33.33%;
+            }
 
-@media only screen and (max-width: 1024px) {
+            .col-9 {
+                width: 66.66%;
+            }
 
-    .section {
-    padding: 32px 0;
-    }
+            .menu {
+                padding: 40px 24px;
+            }
+        }
 
-    .sub {
-    padding: 16px 0 8px;
-    }
+        @media only screen and (max-width: 1024px) {
 
-    .sticky {
-    position: -webkit-initial;
-    position: initial;
-    top: auto;
-    background-color: #ffffff;
-    border-right: none;
-    height: auto;
-    }
+            .section {
+                padding: 32px 0;
+            }
 
-    .hero p {
-    font-size: 100%;
-    }
+            .sub {
+                padding: 16px 0 8px;
+            }
 
-    .col-3 {
-        width: 100%;
-    }
+            .sticky {
+                position: -webkit-initial;
+                position: initial;
+                top: auto;
+                background-color: #ffffff;
+                border-right: none;
+                height: auto;
+            }
 
-    .col-9 {
-        width: 100%;
-    }
+            .hero p {
+                font-size: 100%;
+            }
 
-    .hero {
-    padding: 40px 5%;
-    }
+            .col-3 {
+                width: 100%;
+            }
 
-    .row.content {
-    margin: 0; 
-    }
+            .col-9 {
+                width: 100%;
+            }
 
-}
-        
+            .hero {
+                padding: 40px 5%;
+            }
+
+            .row.content {
+                margin: 0;
+            }
+
+        }
+
     </style>
- 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
- $(document).ready(function(){
-   // Add smooth scrolling to all links
-   $("a").on('click', function(event) {
- 
-     // Make sure this.hash has a value before overriding default behavior
-     if (this.hash !== "") {
-       // Prevent default anchor click behavior
-       event.preventDefault();
- 
-       // Store hash
-       var hash = this.hash;
- 
-       // Using jQuery's animate() method to add smooth page scroll
-       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-       $('html, body').animate({
-         scrollTop: $(hash).offset().top
-       }, 800, function(){
- 
-         // Add hash (#) to URL when done scrolling (default click behavior)
-         window.location.hash = hash;
-       });
-     } // End if
-   });
- });
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
     </script>
     <script>$(document).scroll(function () {
-        var y = $(this).scrollTop();
-        if (y > 800) {
-            $('.backToTop').fadeIn();
-        } else {
-            $('.backToTop').fadeOut();
-        }
-    
-    });</script>   
+      var y = $(this).scrollTop();
+      if (y > 800) {
+        $('.backToTop').fadeIn();
+      } else {
+        $('.backToTop').fadeOut();
+      }
+
+    });</script>
 
 </head>
 <body>
@@ -412,10 +412,10 @@ a.buttonText {
     </div>
     <div class="col-12 hero">
         <h1>Handleiding My DHL Portal </h1>
-            <p>Maak kennis met My DHL Portal, onze hypermoderne alles-in-één verzendservice. Betrouwbaar, razendsnel en makkelijk te gebruiken. Op deze pagina vindt u uitleg over alle beschikbare functionaliteiten en standaardinstellingen. Komt u er toch niet helemaal uit? We helpen u graag.</p>
-            <a href="https://my.dhlparcel.nl/account/sign-in" target="blank" class="buttonText"><div class="button ghost">Naar My DHL Portal</div></a> 
-            <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen" target="blank" class="buttonText"><div class="button ghost">Support</div></a> 
-            <a href="https://www.dhlecommerce.nl/nl/zakelijk/dhl-plugins" target="blank" class="buttonText"><div class="button ghost">Plug-ins</div></a>
+        <p>Maak kennis met My DHL Portal, onze hypermoderne alles-in-één verzendservice. Betrouwbaar, razendsnel en makkelijk te gebruiken. Op deze pagina vindt u uitleg over alle beschikbare functionaliteiten en standaardinstellingen. Komt u er toch niet helemaal uit? We helpen u graag.</p>
+        <a href="https://my.dhlparcel.nl/account/sign-in" target="blank" class="buttonText"><div class="button ghost">Naar My DHL Portal</div></a>
+        <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen" target="blank" class="buttonText"><div class="button ghost">Support</div></a>
+        <a href="https://www.dhlecommerce.nl/nl/zakelijk/dhl-plugins" target="blank" class="buttonText"><div class="button ghost">Plug-ins</div></a>
     </div>
 </div>
 
@@ -424,64 +424,65 @@ a.buttonText {
         <div class="menu section" style="border-bottom: none;">
             <h2>Snel naar</h2>
 
-                <ol>
-                        <li><a href="#h1" class="menu-link">Inloggen</a></li>
-                        <li><a href="#h2" class="menu-link">Standaard instellingen</a>
-                            <ol class="sub-menu">
-                                <li><a href="#h2_1" class="menu-link">Standaard verzendadres instellen</a></li>
-                                <li><a href="#h2_2" class="menu-link">Klantnummer instellingen</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#h3" class="menu-link">Printer instellen</a>
-                            <ol class="sub-menu">
-                                <li><a href="#h3_1" class="menu-link">Labelprinter instellen</a></li>
-                                <li><a href="#h3_2" class="menu-link">Gewone printer instellen</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#h4" class="menu-link">Zending aanmaken</a>
-                            <ol class="sub-menu">
-                                <li><a href="#h4_1" class="menu-link">Nieuwe zending</a></li>
-                                <li><a href="#h4_2" class="menu-link">Zending opslaan of dupliceren</a></li>
-                                <li><a href="#h4_3" class="menu-link">Zending verwijderen</a></li>
-                                <li><a href="#h4_4" class="menu-link">Douanefactuur aanmaken</a></li>
-                                <li><a href="#h4_5" class="menu-link">Retourzending aanmaken</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#h5" class="menu-link">Pick-up boeken</a></li>
-                        <li><a href="#h6" class="menu-link">Gegevens importeren</a>
-                            <ol class="sub-menu">
-                                <li><a href="#h6_1" class="menu-link">Adresgegevens importeren</a></li>
-                                <li><a href="#h6_2" class="menu-link">Zendingsgegevens importeren</a></li>
-                                <li><a href="#h6_3" class="menu-link">Artikelen importeren</a></li>
-                                <li><a href="#h6_4" class="menu-link">Importschema's verwijderen</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#h7" class="menu-link">Track en trace</a></li>
-                        <li><a href="#h8" class="menu-link">Rapportage</a>
-                            <ol class="sub-menu">
-                                <li><a href="#h8_1" class="menu-link">Verzendrapport</a></li>
-                                <li><a href="#h8_2" class="menu-link">Inkomende zendingen</a></li>
-                                <li><a href="#h8_3" class="menu-link">Zendingsdetails</a></li>
-                                <li><a href="#h8_4" class="menu-link">Dagrapport</a></li>
-                                <li><a href="#h8_5" class="menu-link">GoGreen</a></li>
-                            </ol>
-                        <li><a href="#h9" class="menu-link">Vragen over uw zending</a>
-                            <ol class="sub-menu">
-                                <li><a href="#h9_1" class="menu-link">Over een verstuurde zending</a></li>
-                                <li><a href="#h9_2" class="menu-link">Via het rapportage scherm</a></li>
-                                <li><a href="#h9_3" class="menu-link">Overzicht van uw tickets</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#h10" class="menu-link">Zendingsinstructies doorgeven</a></li>
-                        <li><a href="#h11" class="menu-link">Gebruikers beheren</a></li>
-                        <li><a href="#h12" class="menu-link">Retourenpagina aanmaken</a></li>
-                        <li><a href="#h13" class="menu-link">Tarieven</a></li>
-                        <li><a href="#h14" class="menu-link">Overige instellingen</a>
-                            <ol class="sub-menu">
-                                <li><a href="#h14_1" class="menu-link">E-mailnotificaties personaliseren</a></li>
-                            </ol>
-                        </li>
-                </ol>
+            <ol>
+                <li><a href="#h1" class="menu-link">Inloggen</a></li>
+                <li><a href="#h2" class="menu-link">Standaard instellingen</a>
+                    <ol class="sub-menu">
+                        <li><a href="#h2_1" class="menu-link">Standaard verzendadres instellen</a></li>
+                        <li><a href="#h2_2" class="menu-link">Klantnummer instellingen</a></li>
+                    </ol>
+                </li>
+                <li><a href="#h3" class="menu-link">Printer instellen</a>
+                    <ol class="sub-menu">
+                        <li><a href="#h3_1" class="menu-link">Labelprinter instellen</a></li>
+                        <li><a href="#h3_2" class="menu-link">Gewone printer instellen</a></li>
+                    </ol>
+                </li>
+                <li><a href="#h4" class="menu-link">Zending aanmaken</a>
+                    <ol class="sub-menu">
+                        <li><a href="#h4_1" class="menu-link">Nieuwe zending</a></li>
+                        <li><a href="#h4_2" class="menu-link">Zending opslaan of dupliceren</a></li>
+                        <li><a href="#h4_3" class="menu-link">Zending verwijderen</a></li>
+                        <li><a href="#h4_4" class="menu-link">Douanefactuur aanmaken</a></li>
+                        <li><a href="#h4_5" class="menu-link">Retourzending aanmaken</a></li>
+                    </ol>
+                </li>
+                <li><a href="#h5" class="menu-link">Pick-up boeken</a></li>
+                <li><a href="#h6" class="menu-link">Gegevens importeren</a>
+                    <ol class="sub-menu">
+                        <li><a href="#h6_1" class="menu-link">Adresgegevens importeren</a></li>
+                        <li><a href="#h6_2" class="menu-link">Zendingsgegevens importeren</a></li>
+                        <li><a href="#h6_3" class="menu-link">Artikelen importeren</a></li>
+                        <li><a href="#h6_4" class="menu-link">Importschema's verwijderen</a></li>
+                    </ol>
+                </li>
+                <li><a href="#h7" class="menu-link">Track en trace</a></li>
+                <li><a href="#h8" class="menu-link">Rapportage</a>
+                    <ol class="sub-menu">
+                        <li><a href="#h8_1" class="menu-link">Verzendrapport</a></li>
+                        <li><a href="#h8_2" class="menu-link">Inkomende zendingen</a></li>
+                        <li><a href="#h8_3" class="menu-link">Zendingsdetails</a></li>
+                        <li><a href="#h8_4" class="menu-link">Dagrapport</a></li>
+                        <li><a href="#h8_5" class="menu-link">GoGreen</a></li>
+                    </ol>
+                <li><a href="#h9" class="menu-link">Vragen over uw zending</a>
+                    <ol class="sub-menu">
+                        <li><a href="#h9_1" class="menu-link">Over een verstuurde zending</a></li>
+                        <li><a href="#h9_2" class="menu-link">Via het rapportage scherm</a></li>
+                        <li><a href="#h9_3" class="menu-link">Overzicht van uw tickets</a></li>
+                    </ol>
+                </li>
+                <li><a href="#h10" class="menu-link">Instellen Proactieve notificaties</a></li>
+                <li><a href="#h11" class="menu-link">Zendingsinstructies doorgeven</a></li>
+                <li><a href="#h12" class="menu-link">Gebruikers beheren</a></li>
+                <li><a href="#h13" class="menu-link">Retourenpagina aanmaken</a></li>
+                <li><a href="#h14" class="menu-link">Tarieven</a></li>
+                <li><a href="#h15" class="menu-link">Overige instellingen</a>
+                    <ol class="sub-menu">
+                        <li><a href="#h15_1" class="menu-link">E-mailnotificaties personaliseren</a></li>
+                    </ol>
+                </li>
+            </ol>
         </div>
     </div>
 
@@ -489,396 +490,428 @@ a.buttonText {
         <div id="h1" class="section">
             <h2>Inloggen</h2>
 
-                <p>Zodra u een zakelijk account heeft bij DHL eCommerce, maken wij direct een account voor My DHL Portal voor u aan. U ontvangt een e-mail met een activatielink, waarmee u zelf een wachtwoord kunt instellen. De activatielink is 48 uur geldig. Is de link verlopen? Dan vraagt u via <a href="https://my.dhlparcel.nl/account/sign-in" target="_blank"> my.dhlparcel.nl</a> een nieuw wachtwoord aan via <b>Wachtwoord vergeten</b>. Nadat uw account is geactiveerd, logt u altijd in via <a href="https://my.dhlparcel.nl/account/sign-in" target="_blank"> my.dhlparcel.nl</a>. Voor de beste gebruikerservaring raden wij u aan om <b>Google Chrome</b> te gebruiken. </p>
-                <p>Zodra u bent ingelogd, ziet u het <b>dashboard</b>. Dit is een overzicht van de belangrijkste elementen van de verzendservice. U ziet welke zendingen klaarstaan om te verzenden, welke zendingen een uitzondering hebben en u kunt uw zendingen rechtstreeks op het dashboard volgen via track en trace. Ten slotte ziet u welke nieuwe functies zijn toegevoegd aan My DHL Portal. Klik op het <b>potloodje</b> om elementen toe te voegen en te verwijderen van het dashboard. </p>
+            <p>Zodra u een zakelijk account heeft bij DHL eCommerce, maken wij direct een account voor My DHL Portal voor u aan. U ontvangt een e-mail met een activatielink, waarmee u zelf een wachtwoord kunt instellen. De activatielink is 48 uur geldig. Is de link verlopen? Dan vraagt u via <a href="https://my.dhlparcel.nl/account/sign-in" target="_blank"> my.dhlparcel.nl</a> een nieuw wachtwoord aan via <b>Wachtwoord vergeten</b>. Nadat uw account is geactiveerd, logt u altijd in via <a href="https://my.dhlparcel.nl/account/sign-in" target="_blank"> my.dhlparcel.nl</a>. Voor de beste gebruikerservaring raden wij u aan om <b>Google Chrome</b> te gebruiken. </p>
+            <p>Zodra u bent ingelogd, ziet u het <b>dashboard</b>. Dit is een overzicht van de belangrijkste elementen van de verzendservice. U ziet welke zendingen klaarstaan om te verzenden, welke zendingen een uitzondering hebben en u kunt uw zendingen rechtstreeks op het dashboard volgen via track en trace. Ten slotte ziet u welke nieuwe functies zijn toegevoegd aan My DHL Portal. Klik op het <b>potloodje</b> om elementen toe te voegen en te verwijderen van het dashboard. </p>
 
-                <img src="images/1dashboard.png" width="100%">
+            <img src="images/1dashboard.png" width="100%">
         </div>
 
         <div id="h2" class="section">
             <h2>Standaard instellingen</h2>
 
-                    <p>Wanneer u My DHL Portal voor het eerst gebruikt, kunt u een aantal standaardinstellingen toepassen die het verzenden van pakketten en pallets een stuk eenvoudiger maken. Ga hiervoor in de menubalk links naar het <b>Instellingen</b> scherm.</p>
+            <p>Wanneer u My DHL Portal voor het eerst gebruikt, kunt u een aantal standaardinstellingen toepassen die het verzenden van pakketten en pallets een stuk eenvoudiger maken. Ga hiervoor in de menubalk links naar het <b>Instellingen</b> scherm.</p>
 
-                <h3 id="h2_1" class="sub">Standaard verzendadres instellen</h3>
+            <h3 id="h2_1" class="sub">Standaard verzendadres instellen</h3>
 
-                    <p>Om een adres als standaard verzendadres in te stellen is het belangrijk dat dit adres in uw adresboek staat. Kies in het menu voor <b>Adresboek</b>. Voeg een adres toe via de rode button. </p>
-                    <p>Kies vervolgens in het menu voor <b>Instellingen</b> en ga naar <b>Standaard verzendadres</b> onderaan de pagina. Selecteer hier het adres uit uw adresboek en het klantnummer dat u in combinatie met dit adres wilt gebruiken. Klik op de '+' om het adres als standaard toe te voegen.</p>
+            <p>Om een adres als standaard verzendadres in te stellen is het belangrijk dat dit adres in uw adresboek staat. Kies in het menu voor <b>Adresboek</b>. Voeg een adres toe via de rode button. </p>
+            <p>Kies vervolgens in het menu voor <b>Instellingen</b> en ga naar <b>Standaard verzendadres</b> onderaan de pagina. Selecteer hier het adres uit uw adresboek en het klantnummer dat u in combinatie met dit adres wilt gebruiken. Klik op de '+' om het adres als standaard toe te voegen.</p>
 
-                <img src="images/2defaultshippingaddress.png" width="100%">
+            <img src="images/2defaultshippingaddress.png" width="100%">
 
-                    <p>Als u meerdere verzendadressen instelt, kunt u één adres kiezen dat standaard is geselecteerd bij het aanmaken van een nieuwe zending. De andere adressen die u hier toevoegt, kunt u gemakkelijk handmatig kiezen in het <b>Nieuwe zending</b> scherm.</p>
+            <p>Als u meerdere verzendadressen instelt, kunt u één adres kiezen dat standaard is geselecteerd bij het aanmaken van een nieuwe zending. De andere adressen die u hier toevoegt, kunt u gemakkelijk handmatig kiezen in het <b>Nieuwe zending</b> scherm.</p>
 
-                <h3 id="h2_2" class="sub">Klantnummer instellingen</h3>
+            <h3 id="h2_2" class="sub">Klantnummer instellingen</h3>
 
-                    <p>Heeft u meerdere klantnummers bij DHL eCommerce? Om deze goed uit elkaar te houden, kunt u een naam of kenmerk toevoegen, die daarna zichtbaar is de verschillende schermen en rapporten binnen My DHL Portal. Ga onder <b>Instellingen</b> naar <b>Klantnummer instellingen</b>, selecteer uw accountnummer en voer een naam toe.</p>
-                    <p>In dit scherm kunt ook <b>Standaard extra services</b> instellen voor het betreffende accountnummer. Bij het aanmaken van een zending worden deze services (indien mogelijk) automatisch toegepast. Handig, als u vaak dezelfde services kiest.</p>
-                
-                <img src="images/accountnumbersettings.png" width="100%">
+            <p>Heeft u meerdere klantnummers bij DHL eCommerce? Om deze goed uit elkaar te houden, kunt u een naam of kenmerk toevoegen, die daarna zichtbaar is de verschillende schermen en rapporten binnen My DHL Portal. Ga onder <b>Instellingen</b> naar <b>Klantnummer instellingen</b>, selecteer uw accountnummer en voer een naam toe.</p>
+            <p>In dit scherm kunt ook <b>Standaard extra services</b> instellen voor het betreffende accountnummer. Bij het aanmaken van een zending worden deze services (indien mogelijk) automatisch toegepast. Handig, als u vaak dezelfde services kiest.</p>
+
+            <img src="images/accountnumbersettings.png" width="100%">
 
         </div>
 
         <div id="h3" class="section">
             <h2>Een printer instellen</h2>
 
-                    <p>In het menu <b>Printer & labels</b> onder <b>Instellingen</b> heeft u verschillende opties voor het instellen van de printer. De beschikbaarheid van deze opties hangt af van de afdrukmethode die u wilt gebruiken.</p>
+            <p>In het menu <b>Printer & labels</b> onder <b>Instellingen</b> heeft u verschillende opties voor het instellen van de printer. De beschikbaarheid van deze opties hangt af van de afdrukmethode die u wilt gebruiken.</p>
 
-                <h3 id="h3_1" class="sub">Labelprinter instellen</h3>
+            <h3 id="h3_1" class="sub">Labelprinter instellen</h3>
 
-                    <p>Kies voor de optie <b>Ik wil rechtstreeks afdrukken met een labelprinter</b>. Als u een labelprinter van het merk Zebra gebruikt, kunt u de optie <b>Gebruik Zebra Printing Tool</b> aanzetten om het printproces sneller te laten verlopen. U moet het programma <a href="https://www.zebra.com/us/en/support-downloads.html" target="blank"> ZPL</a> daarvoor eerst downloaden en installeren. Let op: over het algemeen is de printkwaliteit van PDF-labels hoger dan die van ZPL labels. Neem <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen" target="blank">contact</a> op voor advies (voor België, gebruik <a href="https://www.dhlparcel.be/nl/bedrijven/online-tools-webformulier" target="blank">dit</a> formulier).</p>
-                    
-                <img src="images/3printersettings.png" width="100%">
+            <p>Kies voor de optie <b>Ik wil rechtstreeks afdrukken met een labelprinter</b>. Als u een labelprinter van het merk Zebra gebruikt, kunt u de optie <b>Gebruik Zebra Printing Tool</b> aanzetten om het printproces sneller te laten verlopen. U moet het programma <a href="https://www.zebra.com/us/en/support-downloads.html" target="blank"> ZPL</a> daarvoor eerst downloaden en installeren. Let op: over het algemeen is de printkwaliteit van PDF-labels hoger dan die van ZPL labels. Neem <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen" target="blank">contact</a> op voor advies (voor België, gebruik <a href="https://www.dhlparcel.be/nl/bedrijven/online-tools-webformulier" target="blank">dit</a> formulier).</p>
 
-                    <p>Bij uw lokale printerinstellingen stelt u het formaat van het label in op 10 x 21 cm.</p>
-                    <p><i>Tip: maak bij de configuratie van uw labelprinter een voorkeursinstelling aan voor een ‘DHL label’ met het formaat 10 x 21 cm. </i></p>
-    
-                <h3 id="h3_2" class="sub">Gewone printer gebruiken</h3>
+            <img src="images/3printersettings.png" width="100%">
 
-                    <p>Als u gebruikmaakt van een gewone printer, dan kiest u de optie <b>Ik gebruik geen labelprinter</b>. Hiermee krijgt u twee nieuwe opties. Ten eerste kunt u kiezen hoeveel labels u per A4 pagina wilt printen (maximaal drie labels op één pagina). Daarnaast kunt u met de optie <b>Bied aan om labelpositie te kiezen</b> per zending bepalen op welke positie op de A4 pagina het label wordt geprint als u er voor kiest om minder dan drie labels per pagina te printen. Deze keuze krijgt u wanneer u een label print in het <b>Nieuwe zending</b> scherm.</p>
-                    <p>Het is belangrijk om er bij uw lokale printerinstellingen voor te kiezen om printopdrachten ‘liggend’ (landscape) en in ‘ware grootte’ (actual size) te verwerken.</p>
-                    <p>Kies voor de optie <b>Automatisch printen</b> als u direct het afdrukvoorbeeld wilt weergeven wanneer u bij het aanmaken van een nieuwe zending op de printknop klikt. Staat deze optie uit, dan wordt het label gedownload als PDF-bestand. </p>
+            <p>Bij uw lokale printerinstellingen stelt u het formaat van het label in op 10 x 21 cm.</p>
+            <p><i>Tip: maak bij de configuratie van uw labelprinter een voorkeursinstelling aan voor een ‘DHL label’ met het formaat 10 x 21 cm. </i></p>
+
+            <h3 id="h3_2" class="sub">Gewone printer gebruiken</h3>
+
+            <p>Als u gebruikmaakt van een gewone printer, dan kiest u de optie <b>Ik gebruik geen labelprinter</b>. Hiermee krijgt u twee nieuwe opties. Ten eerste kunt u kiezen hoeveel labels u per A4 pagina wilt printen (maximaal drie labels op één pagina). Daarnaast kunt u met de optie <b>Bied aan om labelpositie te kiezen</b> per zending bepalen op welke positie op de A4 pagina het label wordt geprint als u er voor kiest om minder dan drie labels per pagina te printen. Deze keuze krijgt u wanneer u een label print in het <b>Nieuwe zending</b> scherm.</p>
+            <p>Het is belangrijk om er bij uw lokale printerinstellingen voor te kiezen om printopdrachten ‘liggend’ (landscape) en in ‘ware grootte’ (actual size) te verwerken.</p>
+            <p>Kies voor de optie <b>Automatisch printen</b> als u direct het afdrukvoorbeeld wilt weergeven wanneer u bij het aanmaken van een nieuwe zending op de printknop klikt. Staat deze optie uit, dan wordt het label gedownload als PDF-bestand. </p>
         </div>
 
         <div id="h4" class="section">
             <h2>Een zending aanmaken</h2>
 
-                    <p><i>Tip: bekijk hier de <a href="https://www.onlineseminar.nl/dhlparcel/webinar/55075/webinar-haal-het-maximale-uit-my-dhl-portal-zendin" target="_blank">webinar over Zendingen aanmaken</a>.</i></p>
+            <p><i>Tip: bekijk hier de <a href="https://www.onlineseminar.nl/dhlparcel/webinar/55075/webinar-haal-het-maximale-uit-my-dhl-portal-zendin" target="_blank">webinar over Zendingen aanmaken</a>.</i></p>
 
-                <h3 id="h4_1" class="sub">Nieuwe zending</h3>
+            <h3 id="h4_1" class="sub">Nieuwe zending</h3>
 
-                    <p>Kies in het linker menu voor <b>Zendingen</b>> en ga naar <b>Nieuwe zending</b>. </p>
-                    <p>Als u meerdere standaard verzendadressen heeft ingesteld, kunt u het adres wijzigen door er op te klikken in de gele balk. U kunt in het uitklapmenu ook klikken op <b>Ander verzendadres</b>, waarna u een geheel nieuw verzendadres kunt invullen. </p>
-                    <p>Vul de gegevens van de ontvanger in, handmatig of uit uw adresboek. Velden met een * zijn verplicht. U kunt een zakelijk of particulier adres opgeven, hierbij ziet u meteen de mogelijke extra services. Geef vervolgens aan om welk type zending het gaat en uit hoeveel pakketten of pallets deze bestaat.</p>
-                
-                <img src="images/4createshipment.png" width="100%">
+            <p>Kies in het linker menu voor <b>Zendingen</b>> en ga naar <b>Nieuwe zending</b>. </p>
+            <p>Als u meerdere standaard verzendadressen heeft ingesteld, kunt u het adres wijzigen door er op te klikken in de gele balk. U kunt in het uitklapmenu ook klikken op <b>Ander verzendadres</b>, waarna u een geheel nieuw verzendadres kunt invullen. </p>
+            <p>Vul de gegevens van de ontvanger in, handmatig of uit uw adresboek. Velden met een * zijn verplicht. U kunt een zakelijk of particulier adres opgeven, hierbij ziet u meteen de mogelijke extra services. Geef vervolgens aan om welk type zending het gaat en uit hoeveel pakketten of pallets deze bestaat.</p>
 
-                    <p>Nadat u alle velden heeft ingevuld, bewaart u het adres van de ontvanger door <b>Opslaan in adresboek</b> te selecteren. Zo worden bij uw volgende zending de gegevens automatisch ingevuld als u zoekt op bedrijfs-, voor- of achternaam. Handig als u vaker naar de ontvanger verstuurt.</p>
-                    <p>Tenslotte print u met de printknop direct het label voor de zending. Uw zending vindt u vanaf dat moment terug in het <b>Verstuurde zendingen</b> scherm. Werkt de printknop niet? Controleer dan of u alle verplichte velden, ook bij de <b>Extra services</b>, heeft ingevuld.</p>
-                    <p><i>Tip: wilt u een afhaling boeken? Vergeet dit dan niet te doen na het aanmaken van uw zending(en). U boekt uw afhaling in het <b>Pick-up</b> scherm.</i></p> 
-                    
-                <h3 id="h4_2" class="sub">Zending dupliceren of opslaan voor later</h3>
+            <img src="images/4createshipment.png" width="100%">
 
-                    <p>Wilt u meerdere labels tegelijk printen of uw zending op een later tijdstip versturen? Sla uw zending dan op in <b>Concepten</b> door uw muis op de printknop te plaatsen en op de verschijnende opslaan-knop te klikken. U vindt de zending nu in het <b>Concepten</b> scherm. Selecteer daar de zendingen die u wilt printen en klik op <b>Print label</b>. Vanaf nu vindt u uw zending weer terug bij <b>Verstuurde zendingen</b>.</p>
-                    <p>Het is ook mogelijk om een al aangemaakte zending snel te dupliceren. Ga naar <b>Verstuurde zendingen</b> of <b>Gearchiveerde zendingen</b> en klik op de zending die u wilt dupliceren. Kies vervolgens rechtsboven voor <b>Nieuwe zending</b>. </p>
-                     
-                <img src="images/6duplicateshipment.png" width="100%">
+            <p>Nadat u alle velden heeft ingevuld, bewaart u het adres van de ontvanger door <b>Opslaan in adresboek</b> te selecteren. Zo worden bij uw volgende zending de gegevens automatisch ingevuld als u zoekt op bedrijfs-, voor- of achternaam. Handig als u vaker naar de ontvanger verstuurt.</p>
+            <p>Tenslotte print u met de printknop direct het label voor de zending. Uw zending vindt u vanaf dat moment terug in het <b>Verstuurde zendingen</b> scherm. Werkt de printknop niet? Controleer dan of u alle verplichte velden, ook bij de <b>Extra services</b>, heeft ingevuld.</p>
+            <p><i>Tip: wilt u een afhaling boeken? Vergeet dit dan niet te doen na het aanmaken van uw zending(en). U boekt uw afhaling in het <b>Pick-up</b> scherm.</i></p>
 
-                    <p><i>Tip: wilt u een afhaling boeken? Vergeet dit dan niet te doen na het aanmaken van uw zending(en). U boekt uw afhaling in het <b>Pick-up</b> scherm.</i></p>
-        
-                <h3 id="h4_3" class="sub">Zending verwijderen</h3>
+            <h3 id="h4_2" class="sub">Zending dupliceren of opslaan voor later</h3>
 
-                    <p>Zendingen waarvoor u al een label heeft aangemaakt, maar toch niet wilt versturen, kunt u archiveren of verplaatsen naar de prullenbak. Selecteer de zending(en) en kies in het menu voor <b>Archiveer zending(en)</b> of <b>Naar prullenbak verplaatsen</b>. De zending wordt verwijderd uit de lijst <b>Verstuurde zendingen</b>>. U kunt de prullenbak niet legen. </p>    
+            <p>Wilt u meerdere labels tegelijk printen of uw zending op een later tijdstip versturen? Sla uw zending dan op in <b>Concepten</b> door uw muis op de printknop te plaatsen en op de verschijnende opslaan-knop te klikken. U vindt de zending nu in het <b>Concepten</b> scherm. Selecteer daar de zendingen die u wilt printen en klik op <b>Print label</b>. Vanaf nu vindt u uw zending weer terug bij <b>Verstuurde zendingen</b>.</p>
+            <p>Het is ook mogelijk om een al aangemaakte zending snel te dupliceren. Ga naar <b>Verstuurde zendingen</b> of <b>Gearchiveerde zendingen</b> en klik op de zending die u wilt dupliceren. Kies vervolgens rechtsboven voor <b>Nieuwe zending</b>. </p>
 
-                <h3 id="h4_4" class="sub">Douanefactuur maken</h3>
+            <img src="images/6duplicateshipment.png" width="100%">
 
-                    <p>Wanneer u douaneplichtige zendingen verstuurt, moet u de juiste documenten bij uw zending voegen. Alle informatie hierover vindt u in onze <a href="https://www.dhlecommerce.nl/sites/default/files/content/DOCS/douanebrochure_dhlparcel.pdf" target="blank">douanebrochure</a>.</p>
+            <p><i>Tip: wilt u een afhaling boeken? Vergeet dit dan niet te doen na het aanmaken van uw zending(en). U boekt uw afhaling in het <b>Pick-up</b> scherm.</i></p>
 
-                <img src="images/7customsform.png" width="100%">
+            <h3 id="h4_3" class="sub">Zending verwijderen</h3>
 
-                    <p>De <a href="https://www.dhlecommerce.nl/sites/default/files/content/DOCS/DHL_eCommerce_NL_factuurvereisten_douane.pdf" target="blank">factuur</a> kunt u aanmaken in My DHL Portal. Zodra u het land van bestemming selecteert, verschijnt onderaan de knop om een <b>douaneformulier</b> in te vullen.</p>
-                    <p>Geef in het formulier dat verschijnt eerst aan of uw zending <b>wel of niet bestemd is voor verkoop</b>. Kies vervolgens een <b>Export type</b> en <b>Export reden</b> die geldt voor uw zending. </p>
-                    <p>In de volgende velden selecteert u de <b>Incoterms®</b> en <b>Incoterm stad</b>. Incoterms® zijn de leveringsvoorwaarden die de overeengekomen afspraken weergeven tussen handelaren (koper en verkoper). De meest gebruikte zijn Delivered At Place en Delivered Duty Paid (deze laatste is alleen mogelijk voor zendingen naar Zwitserland). Meer informatie over Incoterms® vindt u in de douanebrochure. </p>    
-                    <p>Vul de <b>valuta</b> van het land van bestemming in. Direct hieronder voert u per artikel de juiste informatie in en kunt u met de gele knop eventueel artikelen toevoegen. Let er op dat het gewicht van uw zending altijd tenminste 1kg moet zijn. De <b>HS-code</b> of goederencode is een meercijferige code die de douane wereldwijd gebruikt om producten in te delen. Een lijst van codes vindt u <a href="https://www.inenuitvoer.nl/gebruikstarief" target="blank">hier</a> of vraag uw leverancier.</p>
-                    <p>Onder <b>Extra informatie</b> kunt u in het Engels eventuele opmerkingen toevoegen en moet u in elk geval <b>uw btw-nummer</b> invullen. Ook kunt u hier het <b>btw-nummer van uw ontvanger</b>, uw <b>eigen factuurnummer</b> en uw <a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/douane_voor_bedrijven/naslagwerken_en_overige_informatie/eori_nummer" target="blank">EORI-nummer</a> toevoegen. Let op: Zwitserse BTW-nummers moeten altijd eindigen op “TVA” of “IVA”.</p>
-                    <p>Ten slotte kunt u onderaan extra douanedocumenten toevoegen. Klik op <b>OK</b> om terug te gaan naar het <b>Nieuwe zending</b> scherm als u nog aanpassingen wilt doen in uw zendingsgegevens, of klik direct op de printknop om uw labels en de douanefactuur te printen.</p>
-                    <p><i>Tip: heeft u meerdere artikelen te versturen naar het Verenigd Koninkrijk? Bespaar tijd door een template te gebruiken om snel productinformatie te <a href="#h6_3">importeren</a>.</i></p> 
+            <p>Zendingen waarvoor u al een label heeft aangemaakt, maar toch niet wilt versturen, kunt u archiveren of verplaatsen naar de prullenbak. Selecteer de zending(en) en kies in het menu voor <b>Archiveer zending(en)</b> of <b>Naar prullenbak verplaatsen</b>. De zending wordt verwijderd uit de lijst <b>Verstuurde zendingen</b>>. U kunt de prullenbak niet legen. </p>
 
-                <h3 id="h4_5" class="sub">Retourzending aanmaken</h3>
-           
-                    <p>In My DHL Portal kunt op verschillende manieren een retourlabel of -opdracht aanmaken. Zo maakt u het uw ontvanger een stuk makkelijker om eventuele retourzendingen te doen.</p>
+            <h3 id="h4_4" class="sub">Douanefactuur maken</h3>
 
-                <h4>Optie 1: Retourlabel versturen via een bestaande verstuurde zending</h4>
+            <p>Wanneer u douaneplichtige zendingen verstuurt, moet u de juiste documenten bij uw zending voegen. Alle informatie hierover vindt u in onze <a href="https://www.dhlecommerce.nl/sites/default/files/content/DOCS/douanebrochure_dhlparcel.pdf" target="blank">douanebrochure</a>.</p>
 
-                    <p>Wil uw ontvanger een pakket retour sturen? U kunt snel een retourlabel aanmaken aan de hand van de heenzending. Ga naar <b>Verstuurde zendingen</b>. </p>   
-                    <p>Selecteer de zending die uw ontvanger retour wil sturen en kies vervolgens voor <b>E-mail retourlabel</b>.</p>              
-                    
-                <img src="images/10emailreturnlabel.png" width="100%">
+            <img src="images/7customsform.png" width="100%">
 
-                    <p>U heeft nu twee opties. Met <b>Retourlabel</b> verstuurt u een verzendlabel in PDF-formaat, die uw ontvanger kan uitprinten en op het pakket kan plakken. Wilt u het uw ontvanger nog makkelijker maken? Kies dan voor <b>QR-code</b>. Hiermee verstuurt u een e-mail met QR-code, die gebruikt kan worden om de zending zonder verzendlabel bij een DHL ServicePoint in te leveren. Alle nodige instructies vindt uw ontvanger in deze e-mail.</p>
-                    <p><i>Let op: retourneren met verzendlabel is niet voor alle landen mogelijk. Vraag uw accountmanager voor meer informatie. Retourneren met QR-code kan alleen in of vanuit Nederland.</i></p>
+            <p>De <a href="https://www.dhlecommerce.nl/sites/default/files/content/DOCS/DHL_eCommerce_NL_factuurvereisten_douane.pdf" target="blank">factuur</a> kunt u aanmaken in My DHL Portal. Zodra u het land van bestemming selecteert, verschijnt onderaan de knop om een <b>douaneformulier</b> in te vullen.</p>
+            <p>Geef in het formulier dat verschijnt eerst aan of uw zending <b>wel of niet bestemd is voor verkoop</b>. Kies vervolgens een <b>Export type</b> en <b>Export reden</b> die geldt voor uw zending. </p>
+            <p>In de volgende velden selecteert u de <b>Incoterms®</b> en <b>Incoterm stad</b>. Incoterms® zijn de leveringsvoorwaarden die de overeengekomen afspraken weergeven tussen handelaren (koper en verkoper). De meest gebruikte zijn Delivered At Place en Delivered Duty Paid (deze laatste is alleen mogelijk voor zendingen naar Zwitserland). Meer informatie over Incoterms® vindt u in de douanebrochure. </p>
+            <p>Vul de <b>valuta</b> van het land van bestemming in. Direct hieronder voert u per artikel de juiste informatie in en kunt u met de gele knop eventueel artikelen toevoegen. Let er op dat het gewicht van uw zending altijd tenminste 1kg moet zijn. De <b>HS-code</b> of goederencode is een meercijferige code die de douane wereldwijd gebruikt om producten in te delen. Een lijst van codes vindt u <a href="https://www.inenuitvoer.nl/gebruikstarief" target="blank">hier</a> of vraag uw leverancier.</p>
+            <p>Onder <b>Extra informatie</b> kunt u in het Engels eventuele opmerkingen toevoegen en moet u in elk geval <b>uw btw-nummer</b> invullen. Ook kunt u hier het <b>btw-nummer van uw ontvanger</b>, uw <b>eigen factuurnummer</b> en uw <a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/douane_voor_bedrijven/naslagwerken_en_overige_informatie/eori_nummer" target="blank">EORI-nummer</a> toevoegen. Let op: Zwitserse BTW-nummers moeten altijd eindigen op “TVA” of “IVA”.</p>
+            <p>Ten slotte kunt u onderaan extra douanedocumenten toevoegen. Klik op <b>OK</b> om terug te gaan naar het <b>Nieuwe zending</b> scherm als u nog aanpassingen wilt doen in uw zendingsgegevens, of klik direct op de printknop om uw labels en de douanefactuur te printen.</p>
+            <p><i>Tip: heeft u meerdere artikelen te versturen naar het Verenigd Koninkrijk? Bespaar tijd door een template te gebruiken om snel productinformatie te <a href="#h6_3">importeren</a>.</i></p>
 
-                <img src="images/qrreturn.png" width="100%">
-                
-                <h4>Optie 2: Handmatig een retourlabel aanmaken</h4>
+            <h3 id="h4_5" class="sub">Retourzending aanmaken</h3>
 
-                    <p>Deze optie is alleen beschikbaar binnen de Benelux. U kunt makkelijk een retourlabel aanmaken door een alternatief verzendadres in te stellen en uw eigen gegevens bij de ontvangergegevens in te vullen. Klik in het scherm <b>Nieuwe zending</b> het veld voor de <b>Verzender</b> gegevens open met het pijltje om de benodigde invoervelden te tonen.</p>
-                    <p><i>Tip: wilt u een afhaling boeken? Vergeet dit dan niet te doen na het aanmaken van uw retourzending(en). U boekt uw afhaling in het <b>Pick-up</b> scherm.</i></p>
+            <p>In My DHL Portal kunt op verschillende manieren een retourlabel of -opdracht aanmaken. Zo maakt u het uw ontvanger een stuk makkelijker om eventuele retourzendingen te doen.</p>
 
-                <img src="images/9createreturnlabel.png" width="100%">
+            <h4>Optie 1: Retourlabel versturen via een bestaande verstuurde zending</h4>
 
-                <h4>Optie 3: Retourlabel voor nieuwe zending</h4>
+            <p>Wil uw ontvanger een pakket retour sturen? U kunt snel een retourlabel aanmaken aan de hand van de heenzending. Ga naar <b>Verstuurde zendingen</b>. </p>
+            <p>Selecteer de zending die uw ontvanger retour wil sturen en kies vervolgens voor <b>E-mail retourlabel</b>.</p>
 
-                    <p>Wilt u uw ontvanger de mogelijkheid bieden om een pakket direct eenvoudig retour te sturen via een DHL ServicePoint? Kies bij het aanmaken van uw zending voor de extra service <b>Retourlabel</b>.</p>
-                    <p>U print zo twee labels: een verzendlabel voor op het pakket en een retourlabel om mee te sturen in het pakket. Deze optie is niet voor alle landen mogelijk. Vraag uw accountmanager voor welke landen u deze optie kunt gebruiken. </p>
+            <img src="images/10emailreturnlabel.png" width="100%">
 
-                <img src="images/8returnlabeloption.png" width="100%">
+            <p>U heeft nu twee opties. Met <b>Retourlabel</b> verstuurt u een verzendlabel in PDF-formaat, die uw ontvanger kan uitprinten en op het pakket kan plakken. Wilt u het uw ontvanger nog makkelijker maken? Kies dan voor <b>QR-code</b>. Hiermee verstuurt u een e-mail met QR-code, die gebruikt kan worden om de zending zonder verzendlabel bij een DHL ServicePoint in te leveren. Alle nodige instructies vindt uw ontvanger in deze e-mail.</p>
+            <p><i>Let op: retourneren met verzendlabel is niet voor alle landen mogelijk. Vraag uw accountmanager voor meer informatie. Retourneren met QR-code kan alleen in of vanuit Nederland.</i></p>
 
-                <h4>Optie 4: Boek een pick-up met retourlabel</h4>
+            <img src="images/qrreturn.png" width="100%">
 
-                    <p>Deze optie is alleen beschikbaar binnen de Benelux. Wilt u dat de chauffeur een zending ophaalt bij uw ontvanger en zelf het label meebrengt? Dan gaat u naar het scherm <b>Boek pick-up</b>.</p>
-                    <p>Vul hier eerst uw klantnummer en de gewenste afhaaldatum in. Vul in de regel <b>Afhalen op</b> het adres in waar de chauffeur de zending af moet halen. Vervolgens vult u in de regel <b>Doorsturen / retour naar (DHL neemt labels mee)</b> het adres in waar de zending moet worden afgeleverd. Dit kan uw eigen adres zijn, maar de zending kan ook direct naar een ander adres worden doorgestuurd. Hoeft de chauffeur geen label mee te nemen? Dan kunt u dit veld leeg laten.</p>
-                    <p>Als u een van deze adressen nog niet in uw adresboek had staan, dan klikt u op het plusteken. In het scherm dat uitklapt kunt u het adres handmatig invullen en opslaan voor in de toekomst door <b>Opslaan in adresboek</b> aan te vinken.</p>
-                    <p>Tenslotte vult u het aantal pakketten en pallets in en klikt u op <b>Boek pick-up</b>.</p>
+            <h4>Optie 2: Handmatig een retourlabel aanmaken</h4>
 
-                <img src="images/11bookpickupwithreturnlabel.png" width="100%">
+            <p>Deze optie is alleen beschikbaar binnen de Benelux. U kunt makkelijk een retourlabel aanmaken door een alternatief verzendadres in te stellen en uw eigen gegevens bij de ontvangergegevens in te vullen. Klik in het scherm <b>Nieuwe zending</b> het veld voor de <b>Verzender</b> gegevens open met het pijltje om de benodigde invoervelden te tonen.</p>
+            <p><i>Tip: wilt u een afhaling boeken? Vergeet dit dan niet te doen na het aanmaken van uw retourzending(en). U boekt uw afhaling in het <b>Pick-up</b> scherm.</i></p>
 
-                    <p>Een laatste optie is het aanmaken van een <b>Retourenpagina</b>. Bekijk voor meer informatie <a href="#h12">deze</a> sectie in de handleiding.</p>
+            <img src="images/9createreturnlabel.png" width="100%">
+
+            <h4>Optie 3: Retourlabel voor nieuwe zending</h4>
+
+            <p>Wilt u uw ontvanger de mogelijkheid bieden om een pakket direct eenvoudig retour te sturen via een DHL ServicePoint? Kies bij het aanmaken van uw zending voor de extra service <b>Retourlabel</b>.</p>
+            <p>U print zo twee labels: een verzendlabel voor op het pakket en een retourlabel om mee te sturen in het pakket. Deze optie is niet voor alle landen mogelijk. Vraag uw accountmanager voor welke landen u deze optie kunt gebruiken. </p>
+
+            <img src="images/8returnlabeloption.png" width="100%">
+
+            <h4>Optie 4: Boek een pick-up met retourlabel</h4>
+
+            <p>Deze optie is alleen beschikbaar binnen de Benelux. Wilt u dat de chauffeur een zending ophaalt bij uw ontvanger en zelf het label meebrengt? Dan gaat u naar het scherm <b>Boek pick-up</b>.</p>
+            <p>Vul hier eerst uw klantnummer en de gewenste afhaaldatum in. Vul in de regel <b>Afhalen op</b> het adres in waar de chauffeur de zending af moet halen. Vervolgens vult u in de regel <b>Doorsturen / retour naar (DHL neemt labels mee)</b> het adres in waar de zending moet worden afgeleverd. Dit kan uw eigen adres zijn, maar de zending kan ook direct naar een ander adres worden doorgestuurd. Hoeft de chauffeur geen label mee te nemen? Dan kunt u dit veld leeg laten.</p>
+            <p>Als u een van deze adressen nog niet in uw adresboek had staan, dan klikt u op het plusteken. In het scherm dat uitklapt kunt u het adres handmatig invullen en opslaan voor in de toekomst door <b>Opslaan in adresboek</b> aan te vinken.</p>
+            <p>Tenslotte vult u het aantal pakketten en pallets in en klikt u op <b>Boek pick-up</b>.</p>
+
+            <img src="images/11bookpickupwithreturnlabel.png" width="100%">
+
+            <p>Een laatste optie is het aanmaken van een <b>Retourenpagina</b>. Bekijk voor meer informatie <a href="#h12">deze</a> sectie in de handleiding.</p>
 
         </div>
 
         <div id="h5" class="section">
             <h2>Pick-up boeken</h2>
 
-                    <p>Ga naar het <b>Pick-up</b> scherm en kies voor <b>Boek pick-up</b>.</p>
-                    <p>Selecteer een adres (binnen de Benelux) vanuit uw adresboek en het klantnummer. Vul het aantal pakketten of pallets in en de datum aan waarop wij uw zendingen mogen afhalen. Geef eventueel een toelichting (let op het maximaal aantal tekens) mee voor onze bezorger, bijvoorbeeld waar hij zich op dit adres kan melden. Daarna kiest u voor <b>Boek pick-up</b> zodat onze bezorger een bericht krijgt dat uw zending klaarstaat voor afhaling. Links onderaan ziet u de bevestiging van uw succesvolle afhaalopdracht. </p>
-                
-                <img src="images/13bookpickup.png" width="100%">
+            <p>Ga naar het <b>Pick-up</b> scherm en kies voor <b>Boek pick-up</b>.</p>
+            <p>Selecteer een adres (binnen de Benelux) vanuit uw adresboek en het klantnummer. Vul het aantal pakketten of pallets in en de datum aan waarop wij uw zendingen mogen afhalen. Geef eventueel een toelichting (let op het maximaal aantal tekens) mee voor onze bezorger, bijvoorbeeld waar hij zich op dit adres kan melden. Daarna kiest u voor <b>Boek pick-up</b> zodat onze bezorger een bericht krijgt dat uw zending klaarstaat voor afhaling. Links onderaan ziet u de bevestiging van uw succesvolle afhaalopdracht. </p>
 
-                    <p>Let op: Als u geen vaste pick-up per dag heeft, hoeft maar één pick-up per dag in te boeken voor uw afhaaladres. Het is dus niet nodig om per zending een afhaalopdracht te boeken.</p>
-                
-                    <p><i>* Heeft u vaste afspraken gemaakt met uw contactpersoon van DHL over de dagen waarop de chauffeur bij u langskomt? Dan blijven deze afspraken staan. U hoeft in dit geval dus geen aparte afhaling te boeken. Wilt u de afhaling op een ander adres boeken? Dan boekt u wel een aparte afhaling. Wilt u een afhaling boeken op een adres dat nog niet in uw adresboek staat? Klik dan op het plusje en vul de adresgegevens handmatig in het scherm dat uitklapt. </i></p>
+            <img src="images/13bookpickup.png" width="100%">
 
-                <h3 id="h5_1" class="sub">Overzicht pick-ups</h3>  
-                
-                    <p>In het <b>Pick-up</b> scherm vindt u een overzicht van uw geboekte pick-ups. U vindt hier onder andere het pick-up nummer, de geplande afhaaldatum en het afhaaladres. Het adres van de bestemming is alleen zichtbaar wanneer u er voor heeft gekozen om een retour- of doorzendopdracht te boeken waarbij de chauffeur het label meebrengt. </p>
-                    <p>U kunt in dit scherm een pick-up gemakkelijk herhalen. Klik hiervoor op het icoontje rechts in de kolom <b>Acties</b>. U komt nu in een scherm voor een nieuwe pick-up opdracht, waarbij zo veel mogelijk gegevens al zijn ingevuld. Om de pick-up te boeken klikt u op <b>Boek pick-up</b>. </p>
-                    <p>Ten slotte kunt u een overzicht van uw pick-ups exporteren in een CSV-bestand door rechtsboven op <b>Download als CSV</b> te klikken.</p>
+            <p>Let op: Als u geen vaste pick-up per dag heeft, hoeft maar één pick-up per dag in te boeken voor uw afhaaladres. Het is dus niet nodig om per zending een afhaalopdracht te boeken.</p>
 
-                <img src="images/14pickupoverview.png" width="100%">
+            <p><i>* Heeft u vaste afspraken gemaakt met uw contactpersoon van DHL over de dagen waarop de chauffeur bij u langskomt? Dan blijven deze afspraken staan. U hoeft in dit geval dus geen aparte afhaling te boeken. Wilt u de afhaling op een ander adres boeken? Dan boekt u wel een aparte afhaling. Wilt u een afhaling boeken op een adres dat nog niet in uw adresboek staat? Klik dan op het plusje en vul de adresgegevens handmatig in het scherm dat uitklapt. </i></p>
+
+            <h3 id="h5_1" class="sub">Overzicht pick-ups</h3>
+
+            <p>In het <b>Pick-up</b> scherm vindt u een overzicht van uw geboekte pick-ups. U vindt hier onder andere het pick-up nummer, de geplande afhaaldatum en het afhaaladres. Het adres van de bestemming is alleen zichtbaar wanneer u er voor heeft gekozen om een retour- of doorzendopdracht te boeken waarbij de chauffeur het label meebrengt. </p>
+            <p>U kunt in dit scherm een pick-up gemakkelijk herhalen. Klik hiervoor op het icoontje rechts in de kolom <b>Acties</b>. U komt nu in een scherm voor een nieuwe pick-up opdracht, waarbij zo veel mogelijk gegevens al zijn ingevuld. Om de pick-up te boeken klikt u op <b>Boek pick-up</b>. </p>
+            <p>Ten slotte kunt u een overzicht van uw pick-ups exporteren in een CSV-bestand door rechtsboven op <b>Download als CSV</b> te klikken.</p>
+
+            <img src="images/14pickupoverview.png" width="100%">
         </div>
 
         <div id="h6" class="section">
             <h2>Gegevens importeren</h2>
 
-                    <p>Heeft u veel zendingen tegelijk te versturen? Dan boekt u deze zendingen waarschijnlijk liever niet stuk voor stuk in. Een mogelijkheid is om adres- en zendingsgegevens te importeren</p>
+            <p>Heeft u veel zendingen tegelijk te versturen? Dan boekt u deze zendingen waarschijnlijk liever niet stuk voor stuk in. Een mogelijkheid is om adres- en zendingsgegevens te importeren</p>
 
-                <h3 id="h6_1" class="sub">Adresgegevens importeren</h3>
+            <h3 id="h6_1" class="sub">Adresgegevens importeren</h3>
 
-                    <p>Download het <a href="https://www.dhlecommerce.nl/sites/default/files/content/adressen_importeren.xls"> template</a> voor adressen. Maak in het template uw adressenbestand en sla dit op als txt- of csv-bestand 'comma delimited' (EN) of met 'lijstscheidingsteken' (NL). Alle kolommen zijn verplicht, behalve bedrijfsnaam 2, huisnummertoevoeging en telefoonnummer. Bedrijfsnaam is alleen verplicht voor een zakelijke zending. </p>
-                    <p>Kies in het menu voor <b>Adresboek</b> en klik op <b>Importeer adressen</b>.</p>
-                    <p>Importeer uw adressenbestand. Geef uw bestand een naam en koppel de kolommen van het bestand aan de velden van de applicatie. Na de eerste keer koppelen kunt u via het drop-down menu rechtsboven handig een eerder opgeslagen schema gebruiken.</p>
+            <p>Download het <a href="https://www.dhlecommerce.nl/sites/default/files/content/adressen_importeren.xls"> template</a> voor adressen. Maak in het template uw adressenbestand en sla dit op als txt- of csv-bestand 'comma delimited' (EN) of met 'lijstscheidingsteken' (NL). Alle kolommen zijn verplicht, behalve bedrijfsnaam 2, huisnummertoevoeging en telefoonnummer. Bedrijfsnaam is alleen verplicht voor een zakelijke zending. </p>
+            <p>Kies in het menu voor <b>Adresboek</b> en klik op <b>Importeer adressen</b>.</p>
+            <p>Importeer uw adressenbestand. Geef uw bestand een naam en koppel de kolommen van het bestand aan de velden van de applicatie. Na de eerste keer koppelen kunt u via het drop-down menu rechtsboven handig een eerder opgeslagen schema gebruiken.</p>
 
-                <img src="images/15importadresses.png" width="100%">
+            <img src="images/15importadresses.png" width="100%">
 
-                    <p>U vindt uw geïmporteerde adressen in het menu terug bij <b>Adresboek</b>. Hier kunt u altijd een adres bewerken of een nieuw adres toevoegen.</p>
+            <p>U vindt uw geïmporteerde adressen in het menu terug bij <b>Adresboek</b>. Hier kunt u altijd een adres bewerken of een nieuw adres toevoegen.</p>
 
-                <h3 id="h6_2" class="sub">Zendinggegevens importeren</h3>
+            <h3 id="h6_2" class="sub">Zendinggegevens importeren</h3>
 
-                    <p>Download het <a href="https://www.dhlecommerce.nl/sites/default/files/content/zendingen_importeren.xls">template</a> voor zendingsgegevens. Maak in de template uw lijst met zendingen klaar en sla dit op als txt- of csv-bestand 'comma delimited' (EN) of met 'lijstscheidingsteken' (NL). In de template worden de verplichte en optionele velden aangegeven bij de kolomnamen. Ga met uw muis naar de kolomnaam zodat de toelichting zichtbaar wordt voor meer uitleg.</p>
-                    <p>Kies in het <b>Zendingen</b> scherm voor <b>Importeer zendingen</b>. Importeer uw bestand met zendingen. Geef uw bestand een naam en koppel de kolommen van het bestand aan de velden van de applicatie. Let op: wanneer u bij kolommen foutmeldingen ziet, bijvoorbeeld bij extra services, dan is het belangrijk in de hele rij een ‘0’ (uit) of ‘1’ (aan) te zetten. Na de eerste keer koppelen kunt u via het drop-down menu rechtsboven een eerder opgeslagen schema gebruiken.</p>
-                    <p>U kunt ook een eigen template gebruiken. Let dan wel op dat alle verplichte velden worden gekoppeld. U kunt er dan voor kiezen om in de eerste kolom de drop down aan te passen van <b>Kolom</b> naar <b>Vaste waarde</b>. Hiermee kunt u dus alle opties standaard voor uw import toevoegen.</p>
-                    <p><i>Tip: wilt u uw aangemaakte importtemplates delen met collega's die een eigen My DHL Portal-account hebben? Dat kan! Neem hiervoor even <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen">contact</a> met ons op (voor België, gebruik <a href="https://www.dhlparcel.be/nl/bedrijven/online-tools-webformulier" target="blank">dit</a> formulier). </i></p>
+            <p>Download het <a href="https://www.dhlecommerce.nl/sites/default/files/content/zendingen_importeren.xls">template</a> voor zendingsgegevens. Maak in de template uw lijst met zendingen klaar en sla dit op als txt- of csv-bestand 'comma delimited' (EN) of met 'lijstscheidingsteken' (NL). In de template worden de verplichte en optionele velden aangegeven bij de kolomnamen. Ga met uw muis naar de kolomnaam zodat de toelichting zichtbaar wordt voor meer uitleg.</p>
+            <p>Kies in het <b>Zendingen</b> scherm voor <b>Importeer zendingen</b>. Importeer uw bestand met zendingen. Geef uw bestand een naam en koppel de kolommen van het bestand aan de velden van de applicatie. Let op: wanneer u bij kolommen foutmeldingen ziet, bijvoorbeeld bij extra services, dan is het belangrijk in de hele rij een ‘0’ (uit) of ‘1’ (aan) te zetten. Na de eerste keer koppelen kunt u via het drop-down menu rechtsboven een eerder opgeslagen schema gebruiken.</p>
+            <p>U kunt ook een eigen template gebruiken. Let dan wel op dat alle verplichte velden worden gekoppeld. U kunt er dan voor kiezen om in de eerste kolom de drop down aan te passen van <b>Kolom</b> naar <b>Vaste waarde</b>. Hiermee kunt u dus alle opties standaard voor uw import toevoegen.</p>
+            <p><i>Tip: wilt u uw aangemaakte importtemplates delen met collega's die een eigen My DHL Portal-account hebben? Dat kan! Neem hiervoor even <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen">contact</a> met ons op (voor België, gebruik <a href="https://www.dhlparcel.be/nl/bedrijven/online-tools-webformulier" target="blank">dit</a> formulier). </i></p>
 
-                <img src="images/16importshipments1.png" width="100%">
+            <img src="images/16importshipments1.png" width="100%">
 
-                    <p>Ook kunt u de extra service als standaard selecteren.</p>
+            <p>Ook kunt u de extra service als standaard selecteren.</p>
 
-                <img src="images/17importshipments2.png" width="100%">
+            <img src="images/17importshipments2.png" width="100%">
 
-                    <p>U vindt uw geïmporteerde zendingen terug in het menu <b>Concepten</b>. </p>
-                    <p>Selecteer de zendingen en print uw labels uit. U kunt altijd een zending handmatig toevoegen in het <b>Nieuwe zending</b> scherm. </p>
-                    <p><i>Tip: in het menu <b>Instellingen</b> kunt u bij de optie <b>CSV importeren</b> de juiste tekencodering van uw CSV-bestand kiezen. </i></p>
+            <p>U vindt uw geïmporteerde zendingen terug in het menu <b>Concepten</b>. </p>
+            <p>Selecteer de zendingen en print uw labels uit. U kunt altijd een zending handmatig toevoegen in het <b>Nieuwe zending</b> scherm. </p>
+            <p><i>Tip: in het menu <b>Instellingen</b> kunt u bij de optie <b>CSV importeren</b> de juiste tekencodering van uw CSV-bestand kiezen. </i></p>
 
-                <h3 id="h6_3" class="sub">Artikelen importeren</h3>
+            <h3 id="h6_3" class="sub">Artikelen importeren</h3>
 
-                    <p>Verstuurt u meerdere artikelen naar het Verenigd Koninkrijk? Dan kunt u bij het aanmaken van uw douanedocumenten eenvoudig de informatie over deze artikelen importeren. </p>
-                    <p>Download het <a href="https://www.dhlecommerce.nl/sites/default/files/content/artikelen_importeren.csv">template</a> voor het importeren van artikelen in het Verenigd Koninkrijk. Verwerk in het template uw artikelen en sla dit op als txt- of csv-bestand 'comma delimited' (EN) of met 'lijstscheidingsteken' (NL). Alle kolommen zijn verplicht.</p>
-                    <p>Bij het aanmaken van uw zending naar het Verenigd Koninkrijk heeft u de mogelijkheid te kiezen voor <b>Uitgebreid douaneformulier</b>. Wanneer u hierop klikt ziet u het kopje <b>Beschrijf uw pakket</b> en de knop <b>Artikelen importeren</b>. Wanneer u hierop klikt kunt u uw txt- of csv-bestand hierin slepen. Vervolgens klikt u op <b>Volgende</b> en markeert u <b>Sla de eerste regel over</b> en ziet u uw artikelen in het overzicht.</p>
-        
-                <h3 id="h6_4" class="sub">Importschema's verwijderen</h3>
+            <p>Verstuurt u meerdere artikelen naar het Verenigd Koninkrijk? Dan kunt u bij het aanmaken van uw douanedocumenten eenvoudig de informatie over deze artikelen importeren. </p>
+            <p>Download het <a href="https://www.dhlecommerce.nl/sites/default/files/content/artikelen_importeren.csv">template</a> voor het importeren van artikelen in het Verenigd Koninkrijk. Verwerk in het template uw artikelen en sla dit op als txt- of csv-bestand 'comma delimited' (EN) of met 'lijstscheidingsteken' (NL). Alle kolommen zijn verplicht.</p>
+            <p>Bij het aanmaken van uw zending naar het Verenigd Koninkrijk heeft u de mogelijkheid te kiezen voor <b>Uitgebreid douaneformulier</b>. Wanneer u hierop klikt ziet u het kopje <b>Beschrijf uw pakket</b> en de knop <b>Artikelen importeren</b>. Wanneer u hierop klikt kunt u uw txt- of csv-bestand hierin slepen. Vervolgens klikt u op <b>Volgende</b> en markeert u <b>Sla de eerste regel over</b> en ziet u uw artikelen in het overzicht.</p>
 
-                    <p>Aangemaakte importschema's vindt u terug via <b>Importschema's</b> in het menu <b>Instellingen</b>.</p>
+            <h3 id="h6_4" class="sub">Importschema's verwijderen</h3>
 
-                <img src="images/importschema_verwijderen.png" width="100%">
+            <p>Aangemaakte importschema's vindt u terug via <b>Importschema's</b> in het menu <b>Instellingen</b>.</p>
 
-                    <p>Om schema's te verwijderen, selecteert u het gewenste schema in het uitklapmenu en klikt u op het prullenbak-icoon. Deze verwijdering kan niet ongedaan gemaakt worden.</p>
+            <img src="images/importschema_verwijderen.png" width="100%">
+
+            <p>Om schema's te verwijderen, selecteert u het gewenste schema in het uitklapmenu en klikt u op het prullenbak-icoon. Deze verwijdering kan niet ongedaan gemaakt worden.</p>
         </div>
 
         <div id="h7" class="section">
             <h2>Zending volgen met track en trace</h2>
 
-                    <p>Kies in het <b>Zendingen</b> scherm voor <b>Verstuurde zendingen</b>. Hier kunt u uw zendingen volgen met track en trace door op een zending te klikken. U ziet wanneer uw zending door ons is ontvangen, in bezorging is en wanneer het is afgeleverd. U kunt hier ook een verzendbewijs downloaden of per mail versturen. </p>
-                
-                <img src="images/18downloadpod.png" width="100%">
+            <p>Kies in het <b>Zendingen</b> scherm voor <b>Verstuurde zendingen</b>. Hier kunt u uw zendingen volgen met track en trace door op een zending te klikken. U ziet wanneer uw zending door ons is ontvangen, in bezorging is en wanneer het is afgeleverd. U kunt hier ook een verzendbewijs downloaden of per mail versturen. </p>
 
-                    <p>Voor het eenvoudig volgen van meerdere zendingen is het <a href="#h8_1">Verzendrapport</a> een goede optie. Daarnaast kunt u altijd de <b>Zoekfunctie</b> bovenin het scherm gebruiken om specifieke zendingen te vinden.</p>
-                    <p>Heeft u vragen over uw zending? Neem dan contact op met onze <a href="https://dhlparcel.nl/nl/zakelijk/support" target="blank">klantenservice</a>.</p>
+            <img src="images/18downloadpod.png" width="100%">
+
+            <p>Voor het eenvoudig volgen van meerdere zendingen is het <a href="#h8_1">Verzendrapport</a> een goede optie. Daarnaast kunt u altijd de <b>Zoekfunctie</b> bovenin het scherm gebruiken om specifieke zendingen te vinden.</p>
+            <p>Heeft u vragen over uw zending? Neem dan contact op met onze <a href="https://dhlparcel.nl/nl/zakelijk/support" target="blank">klantenservice</a>.</p>
 
         </div>
 
         <div id="h8" class="section">
             <h2>Rapporten</h2>
 
-                    <p><i>Tip: bekijk hier de <a href="https://www.onlineseminar.nl/dhlparcel/webinar/55072/-webinar-haal-het-maximale-uit-my-dhl-portal-rappo" target="_blank">webinar over Rapporten</a>.</i></p>
+            <p><i>Tip: bekijk hier de <a href="https://www.onlineseminar.nl/dhlparcel/webinar/55072/-webinar-haal-het-maximale-uit-my-dhl-portal-rappo" target="_blank">webinar over Rapporten</a>.</i></p>
 
-                <h3 id="h8_1" class="sub">Verzendrapport</h3>
+            <h3 id="h8_1" class="sub">Verzendrapport</h3>
 
-                    <p>Kies in het menu voor <b>Rapporten</b> en ga naar <b>Zendingen</b>. Selecteer één of meerdere klantnummers. Kies de periode waarover u het totaal aantal zendingen wilt inzien. U krijgt onder andere een overzicht van uw verstuurde zendingen met het zendingsnummer, de verzenddatum en de leveringsdatum.</p>
+            <p>Kies in het menu voor <b>Rapporten</b> en ga naar <b>Zendingen</b>. Selecteer één of meerdere klantnummers. Kies de periode waarover u het totaal aantal zendingen wilt inzien. U krijgt onder andere een overzicht van uw verstuurde zendingen met het zendingsnummer, de verzenddatum en de leveringsdatum.</p>
 
-                <img src="images/20shipmentreport.png" width="100%">
+            <img src="images/20shipmentreport.png" width="100%">
 
-                    <p>Met <b>Alle filters</b> kunt u uw resultaten nog verder verfijnen, en bijvoorbeeld zoeken op specifieke statussen, bestemmingen en zendingstypes. U ziet alleen de filters waarvoor binnen uw selectie zendingen beschikbaar zijn. Als u klaar bent met uw selectie drukt u op <b>Filters toepassen</b> om de zendingen te bekijken. Wilt u de filters uitzetten, klik dan op <b>Herstellen</b>.</p>
+            <p>Met <b>Alle filters</b> kunt u uw resultaten nog verder verfijnen, en bijvoorbeeld zoeken op specifieke statussen, bestemmingen en zendingstypes. U ziet alleen de filters waarvoor binnen uw selectie zendingen beschikbaar zijn. Als u klaar bent met uw selectie drukt u op <b>Filters toepassen</b> om de zendingen te bekijken. Wilt u de filters uitzetten, klik dan op <b>Herstellen</b>.</p>
 
-                <img src="images/shipmentreportadvancedfilters.png" width="100%">
-                
-                    <p>Kies voor <b>Download als PDF</b>, <b>Excel</b> of <b>CSV</b> om de gegevens te downloaden. Kiest u voor een csv-bestand dan vindt u <a href="https://www.dhlecommerce.nl/sites/default/files/content/rapport_beheren_in_excel.pdf" target="blank">hier</a> een korte uitleg om de gegevens te splitsen in kolommen. Uw kunt ook een Excel-bestand downloaden, mits deze niet te groot is.</p>
+            <img src="images/shipmentreportadvancedfilters.png" width="100%">
 
-                <h3 id="h8_2" class="sub">Inkomende zendingen</h3>
+            <p>Kies voor <b>Download als PDF</b>, <b>Excel</b> of <b>CSV</b> om de gegevens te downloaden. Kiest u voor een csv-bestand dan vindt u <a href="https://www.dhlecommerce.nl/sites/default/files/content/rapport_beheren_in_excel.pdf" target="blank">hier</a> een korte uitleg om de gegevens te splitsen in kolommen. Uw kunt ook een Excel-bestand downloaden, mits deze niet te groot is.</p>
 
-                    <p>In het <b>Inkomende zendingen</b> tabblad ziet u zendingen die naar u onderweg zijn. Dit rapport bevat retourzendingen en andere DHL-zendingen die gericht zijn aan het e-mailadres van uw My DHL Portal account. Voeg eenvoudig meer ontvangers e-mailadressen toe in het menu Instellingen. Let op: zendingen die aan u zijn gericht, maar waarvoor geen ontvanger e-mailadres is opgegeven, ziet u niet in dit rapport.</p>
+            <h3 id="h8_2" class="sub">Inkomende zendingen</h3>
 
-                    <p>Filter eenvoudig op e-mailadres en tijdsperiode, of zoek een specifieke zending met behulp van het zoekveld. Kies voor <b>Download als PDF</b>, <b>Excel</b> of <b>CSV</b> om de gegevens te downloaden. </p>
+            <p>In het <b>Inkomende zendingen</b> tabblad ziet u zendingen die naar u onderweg zijn. Dit rapport bevat retourzendingen en andere DHL-zendingen die gericht zijn aan het e-mailadres van uw My DHL Portal account. Voeg eenvoudig meer ontvangers e-mailadressen toe in het menu Instellingen. Let op: zendingen die aan u zijn gericht, maar waarvoor geen ontvanger e-mailadres is opgegeven, ziet u niet in dit rapport.</p>
 
-                <h3 id="h8_3" class="sub">Zendingsdetails</h3>
+            <p>Filter eenvoudig op e-mailadres en tijdsperiode, of zoek een specifieke zending met behulp van het zoekveld. Kies voor <b>Download als PDF</b>, <b>Excel</b> of <b>CSV</b> om de gegevens te downloaden. </p>
 
-                    <p>Door in een van de <b>Rapporten</b> op een specifieke zending te klikken, krijgt u uitgebreide informatie over deze zending te zien. Hier ziet u niet alleen alle statussen, maar bijvoorbeeld ook de specificaties van het pakket of de pallet. Naast de mogelijkheid om een <a href="#h9_2">ticket</a> aan te maken, heeft u hier ook de optie om de <b>Zendingstatus</b> te downloaden.</p>
+            <h3 id="h8_3" class="sub">Zendingsdetails</h3>
 
-                <img src="images/shipmentreportdetails.png" width="100%">
+            <p>Door in een van de <b>Rapporten</b> op een specifieke zending te klikken, krijgt u uitgebreide informatie over deze zending te zien. Hier ziet u niet alleen alle statussen, maar bijvoorbeeld ook de specificaties van het pakket of de pallet. Naast de mogelijkheid om een <a href="#h9_2">ticket</a> aan te maken, heeft u hier ook de optie om de <b>Zendingstatus</b> te downloaden.</p>
 
-                    <p><i>Tip: Acties zoals het aanmaken van een ticket of het downloaden van een zendingstatus kunt ook direct vanuit het overzichtsscherm doen. Dit doet u door op de drie puntjes te klikken in het de meest rechtse kolom <b>Acties</b>.</i></p>
-                
-                <h3 id="h8_4" class="sub">Dagrapport</h3>
+            <img src="images/shipmentreportdetails.png" width="100%">
 
-                    <p>U kunt een dagrapportage downloaden van de zendingen die u met My DHL Portal heeft verstuurd. Kies in het menu voor <b>Rapporten</b> en ga naar <b>Dagrapportage</b>.</p>
+            <p><i>Tip: Acties zoals het aanmaken van een ticket of het downloaden van een zendingstatus kunt ook direct vanuit het overzichtsscherm doen. Dit doet u door op de drie puntjes te klikken in het de meest rechtse kolom <b>Acties</b>.</i></p>
 
-                <img src="images/21dailyreport.png" width="100%">
+            <h3 id="h8_4" class="sub">Dagrapport</h3>
 
-                    <p>Selecteer de gewenste datum en kies voor <b>Download</b> om de gegevens te downloaden als pdf-bestand. Een zending komt alleen in een dagrapport te staan wanneer deze onder <b>Verstuurde zendingen</b> staat.</p>
+            <p>U kunt een dagrapportage downloaden van de zendingen die u met My DHL Portal heeft verstuurd. Kies in het menu voor <b>Rapporten</b> en ga naar <b>Dagrapportage</b>.</p>
 
-                <h3 id="h8_5" class="sub">GoGreen rapport</h3>
+            <img src="images/21dailyreport.png" width="100%">
 
-                    <p>In het <a href="https://www.dhlecommerce.nl/nl/gogreen" target="_blank">GoGreen</a> rapport ziet u hoeveel CO2 er is gecompenseerd met de door u verstuurde zendingen. Filter bovenin op jaar, klantnummer en bijvoorbeeld bestemming om specifiekere data te bekijken. Door met uw muis over de groene balken te bewegen, kunt u exacte waardes zien.</p>
+            <p>Selecteer de gewenste datum en kies voor <b>Download</b> om de gegevens te downloaden als pdf-bestand. Een zending komt alleen in een dagrapport te staan wanneer deze onder <b>Verstuurde zendingen</b> staat.</p>
 
-                <img src="images/gogreenreport.png" width="100%">
+            <h3 id="h8_5" class="sub">GoGreen rapport</h3>
 
-                    <p>In dit scherm kunt u rechts ook uw jaarlijkse GoGreen-belofte en (na afloop van het betreffende jaar) uw SGS-gevalideerd GoGreen-certificaat downloaden.</p>
+            <p>In het <a href="https://www.dhlecommerce.nl/nl/gogreen" target="_blank">GoGreen</a> rapport ziet u hoeveel CO2 er is gecompenseerd met de door u verstuurde zendingen. Filter bovenin op jaar, klantnummer en bijvoorbeeld bestemming om specifiekere data te bekijken. Door met uw muis over de groene balken te bewegen, kunt u exacte waardes zien.</p>
+
+            <img src="images/gogreenreport.png" width="100%">
+
+            <p>In dit scherm kunt u rechts ook uw jaarlijkse GoGreen-belofte en (na afloop van het betreffende jaar) uw SGS-gevalideerd GoGreen-certificaat downloaden.</p>
 
         </div>
 
         <div id="h9" class="section">
             <h2>Vragen over uw zending</h2>
 
-                    <p>Heeft u vragen over een zending? Dan kunt u snel en eenvoudig een <b>ticket</b> aanmaken in My DHL Portal. Zo worden uw vraag en alle benodigde zendingsgegevens direct gedeeld met de klantenservice. Bovendien heeft u zo  altijd de status van uw openstaande vragen overzichtelijk op een rij. Een ticket aanmaken kan op twee manieren.</p>
-                    <p><i>Tip: bekijk hier de <a href="https://www.onlineseminar.nl/dhlparcel/webinar/55071/haal-het-maximale-uit-my-dhl-portal-tickets" target="_blank">webinar over Tickets</a>.</i></p>
-            
-                <h3 id="h9_1" class="sub">Over een verstuurde zending</h3>
+            <p>Heeft u vragen over een zending? Dan kunt u snel en eenvoudig een <b>ticket</b> aanmaken in My DHL Portal. Zo worden uw vraag en alle benodigde zendingsgegevens direct gedeeld met de klantenservice. Bovendien heeft u zo  altijd de status van uw openstaande vragen overzichtelijk op een rij. Een ticket aanmaken kan op twee manieren.</p>
+            <p><i>Tip: bekijk hier de <a href="https://www.onlineseminar.nl/dhlparcel/webinar/55071/haal-het-maximale-uit-my-dhl-portal-tickets" target="_blank">webinar over Tickets</a>.</i></p>
 
-                    <p>Ga vanuit het dashboard naar <b>Zendingen</b> en bekijk uw <b>Verstuurde zendingen</b>. Selecteer de zending waarvoor u een ticket wilt aanmaken en klik op de <b>Ticket</b> knop. Bevat uw zending meerdere pakketten? Klik dan op de <b>Ticket</b> knop van het pakket waarvoor u een ticket wilt aanmaken.</p>
-                    
-                <img src="images/23sentshipments.png" width="100%">
+            <h3 id="h9_1" class="sub">Over een verstuurde zending</h3>
 
-                    <p>Er verschijnt een formulier. Selecteer een <b>reden</b> voor uw ticket en vul vervolgens zoveel mogelijk gegevens in. Hoe meer informatie onze klantenservice van uw ontvangt, hoe beter wij het onderzoek voor u kunnen uitvoeren. <b>Let op:</b> heeft u een pakket naar een consument buiten de Benelux verstuurd met Parcel Connect, voeg dan de factuur als bijlage toe aan het ticket.</p>
-                                        
-                <img src="images/24openticket.png" width="100%">
+            <p>Ga vanuit het dashboard naar <b>Zendingen</b> en bekijk uw <b>Verstuurde zendingen</b>. Selecteer de zending waarvoor u een ticket wilt aanmaken en klik op de <b>Ticket</b> knop. Bevat uw zending meerdere pakketten? Klik dan op de <b>Ticket</b> knop van het pakket waarvoor u een ticket wilt aanmaken.</p>
 
-                <h3 id="h9_2" class="sub">Via het Rapportage scherm</h3>
+            <img src="images/23sentshipments.png" width="100%">
 
-                    <p>Een alternatieve manier om een ticket voor onze klantenservice aan te maken, is via het <b>Rapportage</b> scherm. Ga vanuit het dashboard naar <b>Rapporten</b> en klik vervolgens op <b>Zendingen</b>. Selecteer de zending waarvoor u een ticket wilt aanmaken en klik op de <b>Ticket</b> knop. Bevat uw zending meerdere pakketten? Selecteer dan eerst het pakket waarvoor u een ticket wilt aanmaken.</p>
+            <p>Er verschijnt een formulier. Selecteer een <b>reden</b> voor uw ticket en vul vervolgens zoveel mogelijk gegevens in. Hoe meer informatie onze klantenservice van uw ontvangt, hoe beter wij het onderzoek voor u kunnen uitvoeren. <b>Let op:</b> heeft u een pakket naar een consument buiten de Benelux verstuurd met Parcel Connect, voeg dan de factuur als bijlage toe aan het ticket.</p>
 
-                <img src="images/26shipmentreport.png" width="100%">
+            <img src="images/24openticket.png" width="100%">
 
-                    <p>Er verschijnt een formulier. Selecteer een <b>reden</b> voor uw ticket en vul vervolgens zoveel mogelijk gegevens in. Hoe meer informatie onze klantenservice van uw ontvangt, hoe beter wij het onderzoek voor u kunnen uitvoeren. <b>Let op:</b> heeft u een pakket naar een consument buiten de Benelux verstuurd met Parcel Connect, voeg dan de factuur als bijlage toe aan het ticket.</p>
+            <h3 id="h9_2" class="sub">Via het Rapportage scherm</h3>
 
-               <h3 id="h9_3" class="sub">Overzicht tickets</h3>        
-                    
-                    <p>U vindt al uw aangemaakte tickets in het <b>Tickets</b> scherm. Om dit overzicht en updates van onze klantenservice te bekijken, klikt u in het linkermenu op <b>Tickets</b>.</p>
+            <p>Een alternatieve manier om een ticket voor onze klantenservice aan te maken, is via het <b>Rapportage</b> scherm. Ga vanuit het dashboard naar <b>Rapporten</b> en klik vervolgens op <b>Zendingen</b>. Selecteer de zending waarvoor u een ticket wilt aanmaken en klik op de <b>Ticket</b> knop. Bevat uw zending meerdere pakketten? Selecteer dan eerst het pakket waarvoor u een ticket wilt aanmaken.</p>
 
-                <img src="images/25ticketpage.png" width="100%">
-                    
-                    <p>Wilt u tickets zichtbaar maken voor collega’s die met hun eigen account gebruikmaken van My DHL Portal? Neem dan contact op met Sales Support door te mailen naar parcelsales.utrecht@dhl.com (voor België parcelbe.salessme@dhl.com).</p>
-                    
+            <img src="images/26shipmentreport.png" width="100%">
+
+            <p>Er verschijnt een formulier. Selecteer een <b>reden</b> voor uw ticket en vul vervolgens zoveel mogelijk gegevens in. Hoe meer informatie onze klantenservice van uw ontvangt, hoe beter wij het onderzoek voor u kunnen uitvoeren. <b>Let op:</b> heeft u een pakket naar een consument buiten de Benelux verstuurd met Parcel Connect, voeg dan de factuur als bijlage toe aan het ticket.</p>
+
+            <h3 id="h9_3" class="sub">Overzicht tickets</h3>
+
+            <p>U vindt al uw aangemaakte tickets in het <b>Tickets</b> scherm. Om dit overzicht en updates van onze klantenservice te bekijken, klikt u in het linkermenu op <b>Tickets</b>.</p>
+
+            <img src="images/25ticketpage.png" width="100%">
+
+            <p>Wilt u tickets zichtbaar maken voor collega’s die met hun eigen account gebruikmaken van My DHL Portal? Neem dan contact op met Sales Support door te mailen naar parcelsales.utrecht@dhl.com (voor België parcelbe.salessme@dhl.com).</p>
+
         </div>
-
         <div id="h10" class="section">
+            <h2>Instellen Proactieve notificaties</h2>
+            <p style="font-style: italic;">Wij willen zakelijke verzenders graag proactief informeren over vertraagde zendingen. Dat doen we graag zo
+                nauwkeurig mogelijk om ervoor te zorgen dat u op de juiste momenten wordt geïnformeerd. Om kleinschalig te
+                beginnen, starten wij met het versturen van een e-mail zodra uw zakelijke zending binnen de Benelux stil komt te
+                staan en DHL nieuwe instructies nodig heeft.</p>
+
+            <p>Verstuurt u zakelijke zendingen binnen de Benelux? Dan kan het voorkomen dat wij nieuwe instructies nodig
+                hebben als we een zending niet hebben kunnen leveren. Meld u aan voor Proactieve notificaties om een e-
+                mailnotificatie te ontvangen zodra wij nieuwe instructies nodig hebben.</p>
+
+            <p>
+                Ga naar uw <b>Zendingen rapport</b> en klik op <b>Proactieve notificaties.</b> Selecteer uw gewenste klantnummer(s), vink
+                <i>'Zending staat stil, instructies benodigd'</i> aan en selecteer het gewenste e-mailadres.
+            </p>
+
+            <img src="images/pamnotifications.png" width="100%" />
+
+            <p><u>Let op:</u> Alleen de Gebruikersbeheerder (met <i>Organisation & User manager</i> rechten) kan proactieve notificaties
+                instellen voor meerdere e-mailadressen; overige gebruikers kunnen alleen zichzelf aanmelden.</p>
+
+            <p>Als één persoon binnen uw organisatie zich heeft aangemeld voor de proactieve notificatie "Zending staat stil,
+                instructies benodigd", dan wordt u automatisch afgemeld voor de oude versie* van deze notificatie. Dit proces
+                kan enkele dagen duren, en het kan voorkomen dat u gedurende deze tijd beide notificaties nog ontvangt. Deze
+                situatie is niet van toepassing als u een nieuwe klant bent.</p>
+
+            <p>*De oude versie van de notificatie ontvangt u vanaf het e-mailadres: nlcs_noreply@dhl.com.</p>
+
+            <p>Afmelden voor proactieve notificaties doet u door <b>onderaan een ontvangen proactieve e-mailnotificatie</b> te
+                klikken op de link om u af te melden.</p>
+            <p><u>Let op:</u> Hiermee worden alle ingestelde proactieve notificaties op dat e-mailadres ongedaan gemaakt. Opnieuw
+                aanmelden kan weer zoals beschreven in de bovenstaande tekst.</p>
+        </div>
+        <div id="h11" class="section">
             <h2>Zendingsinstructies doorgeven</h2>
-        
-                    <p>Het kan voorkomen dat uw zending niet kan worden afgeleverd bij de ontvanger. In sommige gevallen blijft de zending dan staan op een van onze DHL locaties. U kunt voor <b>zakelijke zendingen</b> via het <b>Verzendrapport</b> in My DHL Portal aan ons doorgeven wat er met de zending moet gebeuren. Als u geen instructies doorgeeft, gaat de zending na 30 dagen terug naar de afzender.</p>
-        
-                    <p>Om snel de zendingen te vinden waarvoor instructies nodig zijn, filtert u in het <b>Verzendrapport</b> op <b>Instructies benodigd</b>. Klik vervolgens in de kolom <b>Attentie</b> op de Instructies benodigd-knop om voor een zending nieuwe instructies door te geven.</p>
 
-                    <img src="images/reportsnewinstructions.png" width="100%">
+            <p>Het kan voorkomen dat uw zending niet kan worden afgeleverd bij de ontvanger. In sommige gevallen blijft de zending dan staan op een van onze DHL locaties. U kunt voor <b>zakelijke zendingen</b> via het <b>Verzendrapport</b> in My DHL Portal aan ons doorgeven wat er met de zending moet gebeuren. Als u geen instructies doorgeeft, gaat de zending na 30 dagen terug naar de afzender.</p>
 
-                    <p>Er verschijnt een formulier waarin u kunt aangeven wat er met de zending moet gebeuren. Wilt u de zending opnieuw aanbieden, dan kunt u een nieuwe datum kiezen tot maximaal twee maanden in de toekomst. Onderaan het formulier ziet u hoeveel dagen u nog instructies kunt doorgeven, daarna gaat de zending retour.</p>
-        
-                    <img src="images/newinstructionsform.png" width="100%">
+            <p>Om snel de zendingen te vinden waarvoor instructies nodig zijn, filtert u in het <b>Verzendrapport</b> op <b>Instructies benodigd</b>. Klik vervolgens in de kolom <b>Attentie</b> op de Instructies benodigd-knop om voor een zending nieuwe instructies door te geven.</p>
+
+            <img src="images/reportsnewinstructions.png" width="100%">
+
+            <p>Er verschijnt een formulier waarin u kunt aangeven wat er met de zending moet gebeuren. Wilt u de zending opnieuw aanbieden, dan kunt u een nieuwe datum kiezen tot maximaal twee maanden in de toekomst. Onderaan het formulier ziet u hoeveel dagen u nog instructies kunt doorgeven, daarna gaat de zending retour.</p>
+
+            <img src="images/newinstructionsform.png" width="100%">
 
         </div>
 
-        <div id="h11" class="section">
+        <div id="h12" class="section">
             <h2>Gebruikers beheren</h2>
 
-                    <p>Kies in het menu voor <b>Instellingen</b> en ga naar <b>Gebruikersbeheer</b>.</p>
+            <p>Kies in het menu voor <b>Instellingen</b> en ga naar <b>Gebruikersbeheer</b>.</p>
 
-                    <p>Klik op <b>Toevoegen</b> om nieuwe gebruikers toe te voegen. Hier kunt u ook direct de rechten per gebruiker instellen en klantnummers selecteren die voor deze gebruiker gelden. U kunt de rechten van een gebruiker altijd wijzigen door rechts te klikken op de drie puntjes en vervolgens op <b>Wijzig</b>. Kies in het verschijnende scherm de rechten en klik op <b>Opslaan</b>.</p>
+            <p>Klik op <b>Toevoegen</b> om nieuwe gebruikers toe te voegen. Hier kunt u ook direct de rechten per gebruiker instellen en klantnummers selecteren die voor deze gebruiker gelden. U kunt de rechten van een gebruiker altijd wijzigen door rechts te klikken op de drie puntjes en vervolgens op <b>Wijzig</b>. Kies in het verschijnende scherm de rechten en klik op <b>Opslaan</b>.</p>
 
-                    <p>In My DHL Portal kunt u de volgende gebruikersrollen instellen:</p>
-            
-                    <p><b>- Gebruikersbeheerder</b>: deze rol geeft de gebruiker toegang to gebruikersbeheer, zoals het toevoegen en bewerken van andere gebruikers in dezelfde omgeving.<br>
-                       <b>- Reporting Manager</b>: deze rol geeft toegang tot het Rapporten scherm en alle onderliggende rapportages. Daarnaast heeft deze gebruiker toegang tot de 'Uw CO₂ emmissies' widget op het dashboard.<br>
-                       <b>- Shipments Manager</b>: met deze rol kan de gebruiker<br>
-                        &nbsp;&nbsp;- (retour)zendingen aanmaken, importeren, kopiëren, archiveren en verwijderen<br>
-                        &nbsp;&nbsp;- pick-ups boeken en kopiëren<br>
-                        &nbsp;&nbsp;- adressen toevoegen, importeren, verwijderen en aanpassen in het Adresboek<br>
-                        &nbsp;&nbsp;- de standaard verzendopties bekijken en aanpassen<br>
-                        &nbsp;&nbsp;- retourenpagina's aanmaken, bewerken en (de)activeren<br>
-                        Gebruikers <i>zonder</i> deze rol kunnen nog steeds:<br>
-                        &nbsp;&nbsp;- (retour)zendingen bekijken<br>
-                        &nbsp;&nbsp;- pick-up opdrachten bekijken<br>
-                        &nbsp;&nbsp;- het Adresboek bekijken<br>
-                        &nbsp;&nbsp;- retourenpagina's bekijken<br>
-                       <b>- Support ticket-gebruiker</b>: hiermee krijgt de gebruiker toegang tot de Tickets functionaliteit, zoals het aanmaken en bekijken van tickets voor onze klantenservice.<br>
-                       <b>- Tariefmanager</b>: deze rol geeft de gebruiker toegang tot de Tarievenpagina, en kan zo de tarieven van de geselecteerde accountnummers inzien.<br>
-                       <b>- Api Gateway-gebruiker</b>: deze rol geeft toegang tot de API sleutel instellingenpagina. Hier kunnen API sleutels worden gegenereerd voor het koppelen van bijvoorbeeld uw webshop aan My DHL Portal.</p>
-                    
-                    <p><i>Let op: u kunt een gebruiker maar één keer toevoegen. Heeft u een gebruiker per ongeluk verwijderd? Neem dan <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen" target="blank">contact</a> met ons op (voor België, gebruik <a href="https://www.dhlparcel.be/nl/bedrijven/online-tools-webformulier" target="blank">dit</a> formulier).</i></p>
+            <p>In My DHL Portal kunt u de volgende gebruikersrollen instellen:</p>
 
-                    <img src="images/19adduser.png" width="100%">
+            <p><b>- Gebruikersbeheerder</b>: deze rol geeft de gebruiker toegang to gebruikersbeheer, zoals het toevoegen en bewerken van andere gebruikers in dezelfde omgeving.<br>
+                <b>- Reporting Manager</b>: deze rol geeft toegang tot het Rapporten scherm en alle onderliggende rapportages. Daarnaast heeft deze gebruiker toegang tot de 'Uw CO₂ emmissies' widget op het dashboard.<br>
+                <b>- Shipments Manager</b>: met deze rol kan de gebruiker<br>
+                &nbsp;&nbsp;- (retour)zendingen aanmaken, importeren, kopiëren, archiveren en verwijderen<br>
+                &nbsp;&nbsp;- pick-ups boeken en kopiëren<br>
+                &nbsp;&nbsp;- adressen toevoegen, importeren, verwijderen en aanpassen in het Adresboek<br>
+                &nbsp;&nbsp;- de standaard verzendopties bekijken en aanpassen<br>
+                &nbsp;&nbsp;- retourenpagina's aanmaken, bewerken en (de)activeren<br>
+                Gebruikers <i>zonder</i> deze rol kunnen nog steeds:<br>
+                &nbsp;&nbsp;- (retour)zendingen bekijken<br>
+                &nbsp;&nbsp;- pick-up opdrachten bekijken<br>
+                &nbsp;&nbsp;- het Adresboek bekijken<br>
+                &nbsp;&nbsp;- retourenpagina's bekijken<br>
+                <b>- Support ticket-gebruiker</b>: hiermee krijgt de gebruiker toegang tot de Tickets functionaliteit, zoals het aanmaken en bekijken van tickets voor onze klantenservice.<br>
+                <b>- Tariefmanager</b>: deze rol geeft de gebruiker toegang tot de Tarievenpagina, en kan zo de tarieven van de geselecteerde accountnummers inzien.<br>
+                <b>- Api Gateway-gebruiker</b>: deze rol geeft toegang tot de API sleutel instellingenpagina. Hier kunnen API sleutels worden gegenereerd voor het koppelen van bijvoorbeeld uw webshop aan My DHL Portal.</p>
+
+            <p><i>Let op: u kunt een gebruiker maar één keer toevoegen. Heeft u een gebruiker per ongeluk verwijderd? Neem dan <a href="https://www.dhlecommerce.nl/nl/zakelijk/verzendoplossingen" target="blank">contact</a> met ons op (voor België, gebruik <a href="https://www.dhlparcel.be/nl/bedrijven/online-tools-webformulier" target="blank">dit</a> formulier).</i></p>
+
+            <img src="images/19adduser.png" width="100%">
 
         </div>
 
-        
-        <div id="h12" class="section">
-            <h2>Retourenpagina aanmaken</h2>
-
-                    <p>Wilt u uw ontvangers binnen de Benelux de optie geven om zelf retouropdrachten aan te maken? Maak dan een retourenpagina aan en zet de link naar deze pagina op uw website of in uw e-mailberichten. Zo levert u uw klanten een extra service en versoepelt u tegelijk uw eigen retourproces.</p>
-                    <p>Ga via <b>Instellingen</b> naar het scherm <b>Retourenpagina's</b>. Met de rode button <b>Nieuwe retourenpagina toevoegen</b> voegt u een nieuwe pagina toe. </p>
-                    
-                    <img src="images/29nieuwretourenpagina.png" width="100%">    
-
-                    <p>Er verschijnt een formulier. Vul de adresgegevens in die als ontvangergegevens op de retourlabels moeten komen. Normaal gesproken zijn dit uw eigen adresgegevens. Selecteer vervolgens het accountnummer waarop de retourzendingen geboekt moeten worden en upload uw logo. Dit logo verschijnt op de retourenpagina, zodat de pagina goed herkenbaar is voor uw klant. </p>
-                    <p>Selecteer ten slotte de <b>retourmethodes</b> die worden aangeboden op de retourenpagina. U kunt meerdere methodes selecteren, waarbij uw klant zelf de keuze maakt bij het aanmaken van een retourzending. Bij een pick-up op particulier of zakelijk adres kiest de klant zelf welke dag en tijdvak het beste uitkomt en neemt de chauffeur het label mee. <b>Let op</b>: niet elke retourmethode is mogelijk in de hele Benelux. U ziet per methode de toegestane landen.</p>
-                    
-                    <img src="images/30nieuwretourenpaginainvullen.png" width="100%">
-                    
-                    <p>Klik op <b>Retourportaal maken</b>. U ziet uw pagina nu in het scherm <b>Retourenpagina's</b>. Via <b>Acties</b> kunt u de pagina (de)activeren, bewerken of de URL kopiëren om op uw website te plaatsen.</p> 
-                            
-        </div>
 
         <div id="h13" class="section">
-            <h2>Tarieven</h2>
+            <h2>Retourenpagina aanmaken</h2>
 
-                    <p>Wanneer uw gebruikersaccount de juiste rechten heeft, kunt u in het scherm <b>Tarieven</b> de tarieven inzien die verbonden zijn aan uw accountnummer(s). U filtert de tarieven eenvoudig op type ontvanger, type zending en land van bestemming. Als er in de toekomst nieuwe tarieven van toepassing zijn, bijvoorbeeld omdat u een nieuw product in gebruik neemt, dan vindt u deze tarieven door <b>Toon toekomstige tarieven</b> aan te vinken.</p> 
-            
-                    <img src="images/22tariffs.png" width="100%">
+            <p>Wilt u uw ontvangers binnen de Benelux de optie geven om zelf retouropdrachten aan te maken? Maak dan een retourenpagina aan en zet de link naar deze pagina op uw website of in uw e-mailberichten. Zo levert u uw klanten een extra service en versoepelt u tegelijk uw eigen retourproces.</p>
+            <p>Ga via <b>Instellingen</b> naar het scherm <b>Retourenpagina's</b>. Met de rode button <b>Nieuwe retourenpagina toevoegen</b> voegt u een nieuwe pagina toe. </p>
 
-                    <p>Exporteer uw tarieven eenvoudig als Excel- of PDF-bestand via <b>Download</b> rechtsboven in het scherm.</p>
+            <img src="images/29nieuwretourenpagina.png" width="100%">
+
+            <p>Er verschijnt een formulier. Vul de adresgegevens in die als ontvangergegevens op de retourlabels moeten komen. Normaal gesproken zijn dit uw eigen adresgegevens. Selecteer vervolgens het accountnummer waarop de retourzendingen geboekt moeten worden en upload uw logo. Dit logo verschijnt op de retourenpagina, zodat de pagina goed herkenbaar is voor uw klant. </p>
+            <p>Selecteer ten slotte de <b>retourmethodes</b> die worden aangeboden op de retourenpagina. U kunt meerdere methodes selecteren, waarbij uw klant zelf de keuze maakt bij het aanmaken van een retourzending. Bij een pick-up op particulier of zakelijk adres kiest de klant zelf welke dag en tijdvak het beste uitkomt en neemt de chauffeur het label mee. <b>Let op</b>: niet elke retourmethode is mogelijk in de hele Benelux. U ziet per methode de toegestane landen.</p>
+
+            <img src="images/30nieuwretourenpaginainvullen.png" width="100%">
+
+            <p>Klik op <b>Retourportaal maken</b>. U ziet uw pagina nu in het scherm <b>Retourenpagina's</b>. Via <b>Acties</b> kunt u de pagina (de)activeren, bewerken of de URL kopiëren om op uw website te plaatsen.</p>
 
         </div>
-        
+
         <div id="h14" class="section">
+            <h2>Tarieven</h2>
+
+            <p>Wanneer uw gebruikersaccount de juiste rechten heeft, kunt u in het scherm <b>Tarieven</b> de tarieven inzien die verbonden zijn aan uw accountnummer(s). U filtert de tarieven eenvoudig op type ontvanger, type zending en land van bestemming. Als er in de toekomst nieuwe tarieven van toepassing zijn, bijvoorbeeld omdat u een nieuw product in gebruik neemt, dan vindt u deze tarieven door <b>Toon toekomstige tarieven</b> aan te vinken.</p>
+
+            <img src="images/22tariffs.png" width="100%">
+
+            <p>Exporteer uw tarieven eenvoudig als Excel- of PDF-bestand via <b>Download</b> rechtsboven in het scherm.</p>
+
+        </div>
+
+        <div id="h15" class="section">
             <h2>Overige instellingen</h2>
 
-                <h3 id="h14_1" class="sub">E-mailnotificaties personaliseren</h3>
+            <h3 id="h15_1" class="sub">E-mailnotificaties personaliseren</h3>
 
-                    <p>Wanneer het e-mailadres van de ontvanger bij DHL bekend is, bijvoorbeeld omdat u deze bij het aanmaken van de zending heeft ingevuld, dan houden wij de ontvanger op de hoogte over de zending met automatische e-mailberichten. Deze notificaties kunt u personaliseren met uw eigen logo. </p> 
-            
-                    <p>Ga hiervoor naar het tabblad <b>Notificaties</b> in het menu <b>Instellingen</b>.</p>
-            
-                    <img src="images/customnotifications.png" width="100%">
-            
-                    <p>Klik op <b>Nieuw</b>. Kies in het scherm dat verschijnt het klantnummer waarvoor u een logo wilt instellen. E-mailnotificaties voor zendingen die op dit nummer worden aangemaakt zullen het logo bevatten, ook als de zendingen niet in My DHL Portal zijn aangemaakt. Klik op <b>Selecteer een bestand</b> en upload een afbeelding. Voor logo's geldt dat ze vaak het beste in <b>PNG-formaat</b> worden getoond, en zijn minimale afmetingen van 100x100 pixels aan te raden. Kies vervolgens de gewenste uitsnede van de afbeelding door het selectieveld te verslepen, verkleinen of vergroten. Klik ten slotte op <b>Opslaan</b>.</p>
-                        
-                    <img src="images/customnotificationsupload.png" width="100%">
+            <p>Wanneer het e-mailadres van de ontvanger bij DHL bekend is, bijvoorbeeld omdat u deze bij het aanmaken van de zending heeft ingevuld, dan houden wij de ontvanger op de hoogte over de zending met automatische e-mailberichten. Deze notificaties kunt u personaliseren met uw eigen logo. </p>
+
+            <p>Ga hiervoor naar het tabblad <b>Notificaties</b> in het menu <b>Instellingen</b>.</p>
+
+            <img src="images/customnotifications.png" width="100%">
+
+            <p>Klik op <b>Nieuw</b>. Kies in het scherm dat verschijnt het klantnummer waarvoor u een logo wilt instellen. E-mailnotificaties voor zendingen die op dit nummer worden aangemaakt zullen het logo bevatten, ook als de zendingen niet in My DHL Portal zijn aangemaakt. Klik op <b>Selecteer een bestand</b> en upload een afbeelding. Voor logo's geldt dat ze vaak het beste in <b>PNG-formaat</b> worden getoond, en zijn minimale afmetingen van 100x100 pixels aan te raden. Kies vervolgens de gewenste uitsnede van de afbeelding door het selectieveld te verslepen, verkleinen of vergroten. Klik ten slotte op <b>Opslaan</b>.</p>
+
+            <img src="images/customnotificationsupload.png" width="100%">
 
         </div>
 
